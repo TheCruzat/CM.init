@@ -1,0 +1,232 @@
+Services
+
+<p class="full-w no-foot">Cruzat.Media is available to assist your team in the following disciplines:</p>
+
+
+
+
+
+
+
+Front End Dev
+
+<img class="bigshot edge f-right" src="'+fed+'" alt="Front End Development">
+
+<h2 class="topper">// Structure</h2>
+
+<p>From the very beginning, one of the few constants in web design & web/app development is the idea that the user-facing portions of the application should be as structurally solid as possible. It should work everywhere, it should never feel incorrect or "broken".</p>
+
+<p>The implementation of that idea has changed drastically over the years, starting with table-based layouts (pre-historic times), the advent of HTML5/CSS3 (the Renaissance), and the rise of component based systems, whether in PHP (WordPress / Magento) or JavaScript (React / Vue).</p>
+
+<h2 class="topper">// Different roads to the same result</h2>
+
+<p>PHP and JavaScript are polar opposites. PHP compiles on server side, in the back end, serving up complete HTML documents to be displayed in the browser. JavaScript does all of its work in the browser, speeding up performance and allowing for 2-way flow of data. They are substantially different approaches, languages with marked syntax distinctions but certain conceptual similarities.</p>
+
+<p>Imagine you\'re going out to dinner. PHP is like a table service restaurant, the food is prepared and dished in a kitchen then presented to you complete. JavaScript is like the Asian style grill houses where the chef is cooking everything right in front of you, smaller dishes served with more frequency.</p>
+
+<div class="bumper"></div>
+
+<p>Despite this distinction, we see a similarity between both approaches in that they both land in the same result, code is delivered to a browser, an experience is rendered. The final structure is HTML, the final styling is CSS, the interactive elements are usually written in some form of JavaScript.</p>
+
+<p>Either way, you went out to eat, and hopefully, enjoyed your meal.</p>
+
+<div class="centro">
+
+<h2 class="topper">// Common Tongues & Parlance</h2>
+
+<p>We\'re always excited to learn new systems and new methods, each subsequent wave of libraries and versions brings its own variations on this same theme. No matter what the system, there is always a place where our layouts live, always a place where styles can be placed, always a place to drop in some interactive code to let the widget do its widgeting.</p>
+
+<p>We hope that they have been prepared by a thoughtful dev, in an easy to locate / migrate template file, and not buried in the bowels of some arcane function (I do not miss the early early days of WordPress). What is beautiful about this era, with so many different roads to the same result, the best ones are travelled by brilliant open source communities that want to help stumped coders find solutions.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Let\'s Get Busy</h2>
+
+<p>Whether you need existing layouts edited, optimized or replaced entirely, Cruzat.Media can help. Contact us today with the specifics and status of your project, we will find your solution.</p>
+
+</div>
+
+
+
+
+
+WordPress
+
+<img class="bigshot edge f-right" src="'+wp+'" alt="WordPress">
+
+<h2 class="topper">// Why We Love a Good CMS</h2>
+
+<p>In the very beginning of all this internet nonsense, editing content was a very big deal. All pages were static html files, making changes to copy required arduous and bulky backup procedures -- what passed for versioning at the time. Adding a new page almost always meant cutting new graphics for the hard-coded navigation, which then had to be cloned across all physical pages of the site.</p>
+
+<p>By the end of the 90s, this need for flexible content management was being met by a number of competing services and technologies, but there was never a clear front runner. A culture had started for self publishing online, and soon blogs became a commonly used word and concept, available on dozens of platforms. And out of this culture grew additional technologies and services.</p>
+
+<p>On May 27, 2003, Matt Mullenweg and Mike Little, building on the work of Michel Valdrighi, released WordPress into the wild. At 16 years of age, WordPress is used by 60% of all sites with known CMS\'s.</p>
+
+<div class="bumper"></div>
+
+<p class="quote"><i class="fa fa-quote-left"></i>I am so personally grateful to WordPress for not only allowing my clients and stakeholders the ability to edit and expand their content at will, but providing me with a versatile platform that lends itself to customization and imaginative engineering. That means the core developers, everyone in the community who has reached out to help a dev get their wagon unstuck. Thank you all.<i class="fa fa-quote-right"></i> <span class="attr"> ~ Dan Cruzat</span></p>
+
+<div class="centro">
+
+<h2 class="topper">// Anything you can think of, and more</h2>
+
+<p>One of the great strengths of WordPress is its malleability and extensability, and it appears to be a natural part of a developer\'s journey to make the jump from using plugins to writing them oneself. The most common requirements revolve around using Custom Post Types for specialized content and fine-tuning dashboards for intuitive use.</p>
+
+<p>In all honesty, most WordPress projects have 80-85% standardized parts, generally the client needs it to do A, B and C. But every once in a while, we get a fun ask, and we\'ve been able to figure out some great add-ons and extensions for the more unique client request. Password protected subsections, employee timecards, company bulletin boards, we have had some very interesting ideas come across the table.</p>
+
+<h2 class="topper">// The Good, The Bad and the Lovely</h2>
+
+<p>WordPress is based on PHP and MySQL and it requires a compatible server to operate. And for many use cases, these are more than adequate. A number of popular platforms still use this technology, including Facebook, Wikipedia and Yahoo.</p>
+
+<p>There are concerns with WordPress and security, ie how hack-proof can we make this, and there are definitely steps to take to fortify a site. The standards involve cloaking the obvious tells: asset paths, login urls, other clues in the source code that tell the curious what is powering the site. There is a level of fortification that is not a question of WordPress but the server itself, and while that is not a specialization we provide directly, we know several experts on the subject if one is required on a project.</p>
+
+<p>A future road for WordPress is being shared by much of the app / site development industry, JavaScript based systems like Vue (this website was built in Vue), React and Angular. It really is a "best of both worlds" situation, we have all of the power of WordPress content control under the hood, the JS-driven front end can access all of that content using the site\'s JSON feed, courtesy of the WP Rest API.</p>
+
+<p class="hili">Cruzat.Media is currently developing a number of demo\'s to showcase the possibilities of a custom WordPress system feeding a monster built in Vue or React.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Let\'s Get Busy</h2>
+
+<p>Whether you need an existing WordPress theme edited, optimized or replaced lock stock and barrel, Cruzat.Media can help. Contact us today with your goals and specifics, we\'ll build the site you\'re looking for.</p>
+
+</div>
+
+
+
+
+UX Strategy
+
+<img class="bigshot edge f-right" src="'+map+'" alt="UX / Strategy">
+
+<h2 class="topper">// Never Get Lost</h2>
+
+<p>One thing that is always true of interactive development, regardless of the platform used, is that your user should never feel lost in the experience. They should always know where they are, how they got there, and how to get to other sections or content.</p>
+
+<p>If you have ever felt lost or confused on a website or in an application, you know how frustrating it can be to the user when this skill and its implementation are not properly valued.</p>
+
+<h2 class="topper">// Always Plan Your Trips</h2>
+
+<p>Before any design or development can begin on a project, work must be done to map out what content will live in which sections, or the Information Architecture. Then we build our connections, planning routes between sections, allowing for relevant options along the way. This flow from one section to the next, the way in which different options are presented, this is the fine art of the User Experience.</p>
+
+<div class="bumper"></div>
+
+<p>Completed properly, this should provide a complete roadmap of the experience and the user\'s movements through it at different stages and states. When executed to perfection, everything always feels simple and easy for the user. They may feel frustration at having to provide an email address for a whitepaper, but they should never be frustrated along the road to that decision.</p>
+
+<div class="centro">
+
+<h2 class="topper">// Getting Crafty</h2>
+
+<p>A notable experience in UX planning was in the marketing dept of a Portland SAAS. A colleague ran the endeavor like a manic mad scientist, inviting everyone to come to The Board with scissors and paper and pens to define a new detail or present a new idea.</p>
+
+<p>The end result of a UX plan is a clean comp, branded if needed, but there is always digital and literal scrap paper along to road to the final map. Things can shape up quickly in Sketch, but there is still something magical about working out some basics with a pen and pad.</p>
+
+<p></p>
+
+<h2 class="topper">// No Matter Where You Go, There You Are</h2>
+
+<p>The core concept remains, your user should never feel lost or confused. They can move through an experience with purpose, relevant signage along the road to help them find their way around.</p>
+
+<p>The finesse is in the strategy of knowing the sequence to walk a user through to reach certain goals. Anticipating the needs of different scenarios in different stages, knowing which calls to action belong at which points along the road. A clean strategy makes all the difference in an experience.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Let\'s Get Busy</h2>
+
+<p>Whether you need an existing user flow reviewed or strategies from scratch, Cruzat.Media can help. Contact us today with project specifics and we will discuss the terrain.</p>
+
+</div>
+
+
+
+
+CSS & SASS
+
+<img class="bigshot edge f-right" src="'+css+'" alt="CSS">
+
+<h2 class="topper">// Make It Beautiful</h2>
+
+<p>Before the introduction of Cascading Style Sheets as a web standard, the internet was a very drab, ugly place. Any content "styling" was done via now-extinct &lt;font&gt; tags, options were severely limited, all layouts were based on &lt;table&gt; tags, it was a mess.</p>
+
+<p>CSS gave us freedom and options, we could suddenly define different container sizes and properties, we could associate rules with specific tags, id\'s or classes. Site-wide changes became possible, and the internet started to look a lot better. But the intial version of the language suffered from the same limitation as early HTML, it was done based on the model of print design and was expected to follow similar rules.</p>
+
+<h2 class="topper">// Give It Character</h2>
+
+<p>Many of these limitations only became apparent once the rules were used commonly. The first one that comes to mind is the "clear fix" solution for content collisions on floated objects, why every modern HTML structural framework (such as Bootstrap or Foundation) has a clearfix() built in. But it was clear that these new, often dynamic documents had to be looked at as their own beast, and not compared with print.</p>
+
+<div class="bumper"></div>
+
+<p>This encouraged the development of CSS2 and, in time, CSS3, styling languages that not only resolved issues that arose in the course of real world development, but also lent themselves to true refinement and polish. The irony being that once the language began to push beyond layout solutions born of the printing press, a primary focus was now to give the styling true character.</p>
+
+<div class="centro">
+
+<h2 class="topper">// Tenemos Estilo</h2>
+
+<p>The goal in styling work on any project should always be to best translate the visual creative from a flat comp to functional code. Beyond that, if dealing with an identiy with a deep presence, it also requires taking a step back to confirm that it is also aligning with the official style guide. A top tier client knows how their work should look, top tier talent can provide it.</p>
+
+<p>These days we much prefer to use SCSS or SASS as a CSS pre-processor, it makes it much easier to nest styles, include variables and mixins, and generally making the task of writing CSS much simpler, more elegant. We can and do still right out straight CSS when it is required, usually for an inline style block in an add-on component.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Let\'s Get Busy</h2>
+
+<p>Whether you need current rules updated or styles from scratch, Cruzat.Media can help. Contact us today with project specifics and we will discuss the terrain.</p>
+
+</div>
+
+
+
+
+
+Team Support 
+
+<img class="bigshot edge f-right" src="'+team+'" alt="Team Support">
+
+<h2 class="topper">// Organizing Principals</h2>
+
+<p>A large project calls for a large team; the more moving parts, the more hands are needed to keep things under control. Discipline and coordination are essential if a team is going to meet its goals with healthy morale and velocity.</p>
+
+<p>We have worked on teams as technical specialists (FED, WP, CSS), as group leaders / lead specialists, and as QA consultants. There are many hats to wear, one resource in their time may know many roles.</p>
+
+<h2 class="topper">// Always Good to Have a Backup</h2>
+
+<p>One of the true advantages of having several multi-skilled resources on a team is that some tasks are concluded quickly, a resource may have extra time. This surplus can then be put to double-checking their colleagues\' work, or several free resources can swarm to tackle a problem that had a single resource stumped.</p>
+
+<div class="bumper"></div>
+
+<p>This is good not only for the quality of the end product and client satisfaction but also for team morale, esprit d\'corps. Surprises happen, projects change course, gremlins emerge. A thousand possible unexpected outcomes, but if a resource knows that they are on a strong team, there is never the feeling of facing something alone.</p>
+
+<div class="centro">
+
+<h2 class="topper">// Team Guarantees</h2>
+
+<p>Having this level of internal oversight means that you can offer your client certain guarantees. An additional QA process becomes a nice-to-have, not a requirement, you already have it built into your process.</p>
+
+<p>This can give your Account Manager confidence in knowing that, even though this thing we are building has about billion moving pieces, each one is being crafted to order and gets the attention it deserves to assure quality.</p>
+
+<h2 class="topper">// No Slackin On Slack</h2>
+
+<p>The modern interactive workplace reflects the technology it produces; We are adaptible, we are flexible, and we certainly make up our own rules as we go along. Sometimes we are together in person, sometimes we are all in our own remote bubbles. Regardless of where or how the work is happening, certain constants remain. Being a \"remote\" worker should never be an excuse for not being present, even if that presence is virtual.</p>
+
+<p>Whatever the makeup or character of the team, the paramount value should always be quality in the final build. All of the team spirit and rah-rah in the world is meaningless if the focus slips from delivering quality in our final product.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Let\'s Get Busy</h2>
+
+<p>Whether you need line item QA or a team lead crossed with an accomplished dev, Cruzat.Media can help. Contact us today with your team status and requirements, we will discuss our options.</p>
+
+</div>
+
+
+
+
+Sound & Audio
+
+<h2 class="topper">// </h2>
+
+<p></p>
+
+<h2 class="topper">// </h2>
+
+<p></p>

@@ -1,0 +1,254 @@
+// breakpoints
+
+@mixin bigger-than($q: $bplg) {
+	@media screen and (min-width: $q) {
+		@content;
+	}
+}
+@mixin smaller-than($q: $bplg) {
+	@media screen and (max-width: $q) {
+		@content;
+	}
+}
+@mixin between-x($q, $r) {
+	@media screen and (min-width: $q) and (max-width: $r) {
+		@content;
+	}
+}
+
+@mixin taller-than($q: 720px) {
+	@media screen and (min-height: $q) {
+		@content;
+	}
+}
+@mixin shorter-than($q: 720px) {
+	@media screen and (max-height: $q) {
+		@content;
+	}
+}
+@mixin between-y($q, $r) {
+	@media screen and (min-height: $q) and (max-height: $r) {
+		@content;
+	}
+}
+
+@mixin superbig() {
+	@include bigger-than($bpx2) {
+		@include taller-than() {
+			@content;
+		}
+	}
+}
+
+
+// hover rules
+
+@mixin ihover() {
+	@media (hover: hover) {
+		@content;
+	}
+}
+
+
+
+
+// structure
+
+@mixin flex-center() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin pop-box() {
+	.screen {
+	  position: absolute;
+	  top: 0; left: 0; right: 0; bottom: 0;
+	  background: rgba(0,0,0,0.7);
+	  z-index: 1;
+	  opacity: 0;
+	  transition: opacity 0.4s;
+	  box-shadow: inset 0 0 100px rgba(255,255,255,0.2);
+
+	  @include smaller-than() {
+	  	display: none;
+	  }
+	}
+
+	.bigscreen {
+	  position: absolute;
+	  top: 0; left: 0; right: 0; bottom: 0;
+	  z-index: 2;
+	  opacity: 0;
+
+	  @include smaller-than() {
+	  	display: none;
+	  }		
+	}
+
+	.ribbon {
+		display: block;
+		background: #fff;
+		transition: opacity 0.4s;
+		position: relative;
+		padding: 24px;
+		box-sizing: border-box;
+		text-align: center;
+		h2, h3 {
+			// font-size: 1.4rem;
+			line-height: 1.2;
+			margin-bottom: $bv/2;
+		}
+		p {
+			margin-bottom: 0;
+		}
+		.button-rack {
+			margin-bottom: 0;
+		}
+		@include bigger-than() {
+			min-height: 120px;
+			width: calc(100% - 40px);
+			max-width: 400px;
+
+			// box-shadow: 0 0 30px #000;
+			z-index: 2;
+	  		opacity: 0;
+			border: 4px solid #000;
+
+			.button-rack {
+				display: none;
+			}
+		}
+
+		@include smaller-than() {
+			padding-top: 32px;
+			padding-bottom: 32px;
+			border-top: 1px solid #999;
+			h3 {
+				margin: 0;
+			}
+		}
+	}
+	@include ihover() {
+		&:hover {
+			@include bigger-than() {
+				.screen, .ribbon {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+// typography 
+
+@mixin content-styles {
+
+	p, li {
+		line-height: 1.7;
+
+		&.no-foot {
+			margin-bottom: 0;
+		}
+
+		@include superbig() {
+			line-height: 1.8;
+		}
+	}
+
+	a:not(.button), a:visited:not(.button) {
+		color: #000;
+	}
+
+	a.silent {
+		background: transparent!important;
+		color: #000!important;
+		&:hover {
+			color: #000!important;
+		}
+	}
+
+	h1, h2, h3 {
+		font-family: $title;
+		// background: #eee;
+		// display: inline-block;
+
+		+p {
+			@include bigger-than() {
+				padding-left: 27px; // 5vh;
+			}
+			
+			@include bigger-than($bpx2) {
+				padding-left: 33px; // 5vh;
+			}
+			
+		}
+	}
+
+	h2, h3 {
+		font-size: 1.4rem;
+
+		&.biggie {
+			font-size: 1.6rem;
+			line-height: 1.1;
+			padding-bottom: 12px;
+
+			@include bigger-than($bpsm) {
+				font-size: 2.2rem;
+			}
+
+			@include bigger-than() {
+				font-size: 2.6rem;
+			}
+
+			@include bigger-than($bpx2) {
+				font-size: 3rem;
+			}
+
+			@include smaller-than($bpsm) {
+				margin-top: - $bv;
+			}
+		}
+
+		@include bigger-than() {
+			font-size: 1.8rem;
+		}
+
+		@include bigger-than($bpx2) {
+			font-size: 2.2rem;
+		}
+	}
+
+	h1, h2, h3, h4, h5, p, li, ul {
+		padding: 0;
+		margin: 0 0 $bv;
+	}		
+
+	p {
+		+h2, +h3 {
+			margin-top: $bv*2;
+		}
+		a {
+			text-decoration: none;
+			background: $ylo;
+			// border-bottom: 4px solid #000;
+			transition: all 0.15s ease-in;
+
+			@include ihover() {
+				&:hover {
+					color: $ylo!important;
+					background: #000;
+					transition: all 0.3s ease-in;
+					// border-bottom: 0px solid #000;
+				}
+			}
+		}
+	}
+}
+
+
+
+

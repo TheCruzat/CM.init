@@ -1,0 +1,198 @@
+
+Walkthrough / Overview
+The Brief
+The Plan of Attack
+The Build
+Toolbox (technology)
+Screenshots
+
+
+Landing
+
+<p class="full-w center-text no-foot">In the past year we have been busy with <strong>website development</strong> and researching new libraries and methods.</p>
+
+<div class="tileset">
+	<a href="#">
+
+	</a>
+</div>
+
+
+
+
+
+
+// AT&T 
+
+<h2 class="topper">// Bird\'s Eye</h2>
+
+<p>A custom built theme for a <strong>WordPress</strong> powered site. Fully <strong>responsive</strong>, a <strong>mobile-first</strong> approach wherever possible. The overall aim is a full-screen, visually immersive experience.</p>
+
+<div class="bumper"></div>
+
+<img class="bigshot edge f-right" src="'+logoATTF+'" alt="AT&T Foundry">
+
+<h2 class="topper">// The Brief</h2>
+
+<p>C.M was approached by <a href="https://www.connectivedx.com/" target="_blank" title="Connective DX">Connective DX</a> to take on a custom WordPress build for their client, the <strong>AT&amp;T Foundry</strong>. We joined the CDX team, together we paired with AT&amp;T\'s team. C.M was responsible for all <strong>front end development</strong>, <strong>template development</strong>, required hooks for <strong>content control</strong> and <strong>dashboard customization</strong>, all on top of a bespoke WordPress installation.</p>
+
+<h2 class="topper">// The Plan of Attack</h2>
+
+<p>Since the emphasis was to be on using these very large, lush photos as <strong>full browser backgrounds</strong>, the first step was setting up our base rules for how those containers would behave at different sizes. How content flows through them, required styling, making sure it behaves as needed at each <strong>breakpoint</strong>.</p>
+
+<p>Beyond that initial challenge, it was a straightforward project. CDX was to provide the <strong>visual creative</strong>, we were to work with their resources to insure correct translation to <strong>interactive</strong>.</p>
+
+<div class="centro">
+
+<h2 class="topper">// The Build</h2>
+
+<p>This wound up being one of those projects where refinement came in the reviews, we worked with their team on an extended <strong>timeline</strong> to finesse the final site. There was a lot of iteration towards a gripping experience on smaller devices, we landed at a solution that fit the visually rich theme of the site while keeping the content front and center for <strong>mobile users</strong>.</p>
+
+<p>The site came together quickly and cleanly. The CDX crew were awesome, the <strong>layouts</strong> were intuitive and consistent. Small details were accounted for between sizes and, most important from a dev perspective, layout elements were scaled and re-used wherever possible.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Toolbox</h2>
+
+<p>The theme was built from scratch starting with the basics in <strong>WordPress</strong>. The recipe called for five layout templates, functional at all sizes. We used <strong>Gulp</strong> for the taskrunner, <strong>SCSS</strong> for our <strong>CSS</strong> needs, and what (light) interactive JS duties there are were handled with <strong>JQuery</strong>.</p>
+
+</div>
+
+
+
+
+
+// Modern Adventure
+
+<h2 class="topper">// Bird\'s Eye</h2>
+
+<p>Two new sections are to be added to an existing <strong>WordPress</strong> website, each functioning as a separate site and requiring distinct templates. The first a template set for Partner microsite, the second a template set for a monthly magazine.</p>
+
+<div class="bumper"></div>
+
+<img class="bigshot edge f-right" src="'+logoMA+'" alt="Modern Adventure">
+
+<h2 class="topper">// The Brief</h2>
+
+<p>C.M was approached by <a href="https://www.linkedin.com/in/scottmcneely/" class="silent" target="_blank" title="Scott McNeely : COO / Co-Founder Modern Adventure">Scott McNeely</a> at <a href="http://modernadventure.com" title="Modern Adventure">Modern Adventure</a> (MO/AD) to partner with their <strong>lead developer</strong>, <a class="silent" href="https://www.linkedin.com/in/samtempleman/" title="Sam Templeman : Senior Developer">Sam Templeman</a>, to develop the new site sections. It was important that the new sections were developed without interrupting Sam\'s day to day work on the main site.</p>
+
+<p>I worked with the MO/AD team for several months, meeting with their creatives to finesse and fine tune the evolving layouts. It was crucial in getting clean translations from their finished comps to <strong>interactive experiences</strong> that blend seamlessly with their existing presence.</p>
+
+<div class="centro">
+
+<h2 class="topper">// The Plan of Attack</h2>
+
+<p>The new sections were intended to function autonomously of the <strong>main theme</strong>, each was planned as its own private island with all required assets and dependencies \"inhouse\".<p>
+
+<p>The Partner microsite needed to be <strong>fully customizable</strong>, including dashboard driven options for partner logo, partner brand colors, and areas for <strong>custom CSS</strong>.</p>
+
+<p>The Magazine landing page involved creating a large size interlocking mural using graphics, each piece being a link taking the user to an article in the issue. This also needs to resolve cleanly for mobile.</p>
+
+<h2 class="topper">// The Build</h2>
+
+<p>The Trellis / Bedrock / Vagrant tech the site is built on is truly impressive, using a VM to run the necessary Apache server to run the PHP+MySQL combo that allows WordPress to function.</p>
+
+<p>The private island approach to section development worked perfectly, allowing each complete fileset to live in a single folder in main theme folder, efficient and clean.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Toolbox</h2>
+
+<p>As per The Templeman Recipe, the templates were integrated into the existing build, it was important that our work flowed into the house kitchen seamlessly. This particular Trellis installation had some custom work involved, not exactly vanilla, there was a learning curve. The site uses several 3rd party integrations for handling customer information in various use cases, some pieces of the UI required access to that tech.</p>
+
+<p>Once the Big Pieces were sorted, the actual nuts and bolts of theme working were very straightforward. We used SCSS to pre-cook our styles and we already had JQuery under the hood as a WordPress core dependency. The 3rd party tech integrated cleanly, we saw uniform behavior as elswhere on the site.</p>
+
+</div>
+
+
+
+
+
+// ICE
+
+<h2 class="topper">// Bird\'s Eye</h2>
+
+<p>A website reaching <strong>10 years</strong> online was showing its age, due for a refit not only in look and feel but also functionality. It needs to be <strong>fully responsive</strong> for tablets and phones, it needs a <strong>password-protected</strong> employee section, client wants <strong>content control</strong>. </p>
+
+<div class="bumper"></div>
+
+<img class="bigshot edge f-right" src="'+logoICE+'" alt="Industrial Commercial Electric">
+
+<h2 class="topper">// The Brief</h2>
+
+<p>E+C was approached by a <strong>project manager</strong> for <a href="http://icecoelectric.com" title="Industrial Commercial Electric" target="_blank">Industrial Commercial Electric</a>, an Oregon utilities company in need of a new website. The PM had already sold the client on WordPress as a content management solution.</p>
+
+<p>Beyond the basics of a WordPress theme build, we are faced with a challenge in two parts: A) creating a custom password protection system for content independent of the WP system;  B) Implement existing 3rd party integrations cleanly inside this walled garden. </p>
+
+<div class="centro">
+
+<h2 class="topper">// The Plan of Attack</h2>
+
+<p>In any full app / full site project, it is generally a good idea to begin with locking down all of the known elements before moving into the unknown questions. So first and foremost was taking care of the core site build, translating over the existing content, then moving into the gated content and integration questions.</p>
+
+<h2 class="topper">// The Build</h2>
+
+<p>The core build went as expected, the beauty of WordPress as a focus is "the standards" always come together quickly on a project. This allowed for a good chunk of time for device testing and layout smoothing over different scale devices. It also allowed time in the project for the required research to meet client needs.</p>
+
+<p>This wound up being a case of discovery-in-development; while not ideal from a pure process perspective, it was to the ultimate benefit of the project as we were able to find optimal solutions to meet the client requests. In the end, it was a great refresher course on the malleability and integrity of PHP, we were still able to find solutions to client needs.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Toolbox</h2>
+
+<p>The theme was built from scratch starting with the basics in <strong>WordPress</strong>. The recipe called for eleven <strong>layout templates</strong>, functional at all sizes. We used <strong>Gulp</strong> for the taskrunner, <strong>SCSS</strong> for our <strong>CSS</strong> needs, and what (light) interactive JS duties there are were handled with <strong>JQuery</strong>.</p>
+
+<p>For the walled content, a custom login mechanism was built using server-side PHP, functionality that lives alongside the WordPress system without interfering with it.</p>
+
+</div>
+
+
+
+
+
+
+// Camp Bell
+
+<h2 class="topper">// Bird\'s Eye</h2>
+
+<p>A website is required to both accompany an album\'s release and serve as an evergreen footprint for the group rolling forward.</p>
+
+<div class="bumper"></div>
+
+<img class="bigshot edge f-right" src="'+cvrGIAC+'" alt="Sexual Campbell - G0D IS A CEN0BYT3">
+
+<h2 class="topper">// The Brief</h2>
+
+<p>C.M was approached by a member of experimental hip-hop collective <strong>Sexual Campbell</strong> (SFW: Camp Bell) inquiring about a website to compliment an upcoming release, as well as provide background and context with the group\'s prior work.</p>
+
+<p>We know them from The Old Days and were pleased to assist them in getting their project online.</p>
+
+<h2 class="topper">// The Plan of Attack</h2>
+
+<p>In discovery, we determined that the website does not need expansive content areas, there is a fixed set of content we will be pushing out with, so a CMS like WordPress would be overkill. We opted for a build in <strong>Vue.js</strong> to maximize a smooth experience, assets can be localized to the root of a section to trade a slight initial load for section performance.</p>
+
+<p>There were assets the group had originally collected for a website concept in <strong>Flash</strong> a dozen years ago, and while that iteration never panned out, the images are now in play on the main landing page. This was an easy home run that sparked much joy for the group.</p>
+
+<div class="centro">
+
+<h2 class="topper">// The Build</h2>
+
+<p>This site proved to be a real eye-opener, the development of components and views proved to be a inter-related process. 9 times out of 10, the expected scope for a component had to be expanded repeatedly to reach final implementation.</p>
+
+<p>In execution, the site is built using a very similar method to this one, having a super smart \"layout chunk\" that functions like a swiss army knife, different hooks call in smaller components, all content is driven from a master content matrix dialed in through the router.</p>
+
+<div class="bumper"></div>
+
+<h2 class="topper">// Toolbox </h2>
+
+<p>We used a standardized <strong>JSON</strong> object and an extensible template set, so even if the site is not officially connected to a content management system, it will be not be difficult to implement site additions for any future releases or activity.</p>
+
+<p>This was our first project in <a href="https://vuejs.org/v2/guide/installation.html#NPM" target="_blank">Vue.js V2</a>. Always interesting how certain core concepts translate into new systems, slightly or majorly different than what one is used to.</p>
+
+<h2 class="hili">!! Disclaimer !!</h2>
+
+<p><strong>Camp Bell</strong> speaks to certain social and political perspectives and is not appropriate for all listeners. They also deal with themes of depression and death, some listeners will find it disturbing.</p>
+
+<p>Mature ears in appropriate spaces only. They strive for NSFW.</p>
+
+</div>

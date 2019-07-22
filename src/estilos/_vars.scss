@@ -1,0 +1,42 @@
+// colors
+
+$pbg: #f3f3f3;
+
+$ylo: lighten(#ffff00, 8%);
+
+$bv: 24px;
+
+
+.ylo-bg {
+	background-color: $ylo;
+}
+
+
+// sizes
+
+$bpxs: 360px;
+$bpsm: 560px;
+$bpmd: 768px;
+$bplg: 960px;
+$bpxl: 1200px;
+$bpx2: 1440px;
+
+
+// fonts
+
+$title: 'Quantico'; //Courier New;
+$copy: 'Open Sans', san-serif;
+
+h1, h2, h3, h4, h5 {
+	font-family: $title;
+	font-weight: 100;
+	letter-spacing: -0.05em;
+}
+
+p {
+	// text-align: justify;
+}
+
+strong {
+	font-weight: 100;
+}
