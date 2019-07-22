@@ -1,9 +1,9 @@
 <template>
-  <div :class="classes">
+  <div :class="classes"><div class="contain">
     <button @click.prevent="flipProj('--')"><i class="fa fa-angle-left"></i></button>
     <p><router-link :to="troute" v-html="title"></router-link></p>
     <button @click.prevent="flipProj('++')"><i class="fa fa-angle-right"></i></button>
-  </div>
+  </div></div>
 </template>
 
 <script lang="ts">
@@ -80,5 +80,10 @@ export default class SubNavArrows extends Vue {
 <style scoped lang="scss">
 
   @import "@/estilos/global.scss";
+
+  .contain {
+    width: 100%;
+    display: flex;
+  }
 
 </style>
