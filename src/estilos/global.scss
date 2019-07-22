@@ -1006,7 +1006,7 @@ ul.icons {
 				position: absolute;
 				top: 36px;;
 				background: darken(#666, 16%);
-				left: -51px;
+				left: -64%;
 
 	  			span {
 	  				display: block;
@@ -1022,7 +1022,7 @@ ul.icons {
 	  			}
 
 	  			@include superbig() {
-	  				left: -78px;
+	  				// left: -78px;
 	  			}
   			}
   		}
