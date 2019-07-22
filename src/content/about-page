@@ -52,11 +52,11 @@
 
 <p>In 2010, I was lucky enough to cross paths with Christine Ellsworth, a skilled designer and world class snarkburglar. We became fast friends and started talking about collaboration, one project lead to two lead to more. Suddenly we had a handful of indie clients in Portland.</p>
 
-<img src="'+eencee+'" alt="E+C / Ellsworth + Cruzat" class="f-left bigshot">
+<img src="'+eencee+'" alt="E+C / Ellsworth + Cruzat" class="f-left bigshot enc">
 
 <p>In 2012, while working on UX for a rework of the Rose City Rollers website, we decided to create a shared banner for our projects, and <a href="http://eencee.me" target="_blank">E+C (Ellsworth + Cruzat)</a> popped into the world. Not a legal partnership or company, but a continuing collaborative relationship where we play to each others\' strong suits while retaining our own autonomy as contractors.</p>
 
-<p>Christine Ellsworth has been my go-to for visual creative ever since.</p>
+<p>Christine Ellsworth has been my go-to for visual creative ever since. It is always a thrill to see one of her designs for the first time, she has a very clean visual language that adapts well for various brand requirements.</p>
 
 <p>Thank you Tini.</p>
 
@@ -64,19 +64,19 @@
 
 <h3 class="topper">// Rough Starts</h3>
 
-<p>In my time in code I have worked with many languages, but the mainstays over the years have been HTML, CSS and JavaScript. In the very beginning, complicated OOP and DOM manipulation were well beyond me, JavaScript beyond simple layout effects felt like magic.</p>
+<p>In my time in code I have worked with many languages, but the mainstays over the years have been HTML, CSS and JavaScript. In the very beginning, complicated OOP and DOM manipulation were well above my amateur stage, JavaScript beyond simple layout effects felt like magic.</p>
 
-<p>By 2005, Flash had been a central focus for many years, I had worked on projects ranging from the small, mp3 players and smart video banners, to the very not small, product catalogs and massive guided clickthroughs walkthroughs, but all of that had been primarily timeline based.</p>
+<p>By 2005, Flash had been a central focus for many years, I had worked on projects ranging from the small, mp3 players and smart video banners, to the very not small, product catalogs and massive guided clickthroughs walkthroughs, but all of that had been primarily timeline based. The deeper secrets of ActionScript still eluded me.</p>
 
 <h3 class="topper">// Honing Edges</h3>
 
-<p>Team based development exposed me to more advanced ideas and methods, as well as teaching me the value of seeking assistance for a given problem or bug. I had never been able to crack JavaScript beyond basic effects, ActionScript, AS2 and AS3 gave me my proper education in OOP.</p>
+<p>That changed when I started working on teams in Portland. Team based development exposed me to more advanced ideas and methods, as well as teaching me the value of seeking assistance for a given problem or bug. I had never been able to crack JavaScript beyond basic effects, ActionScript, AS2 and AS3 gave me my proper education in OOP.</p>
 
-<p>After smartphones killed Flash, I went back to basics with HTML and CSS. At the time JQuery was becoming the new rage and I was able to parlay what I had learned about OOP over from AS2/AS3. JQuery, in turn, made JavaScript more accessible to my brain, so it\'s hard to say that any of the skills I gained in Flash dev have been lost.</p>
+<p>After smartphones killed Flash, I went back to basics with HTML and CSS. At the time JQuery was becoming the new rage and I was able to parlay what I had learned about OOP over from AS2/AS3. JQuery, in turn, made JavaScript more accessible to my brain, so it\'s hard to say that any of the skills I gained in Flash dev have been lost. And sometimes, you need to take the long way around to gain understanding in a discipline or a language.</p>
 
 <h3 class="topper">// Finding Answers</h3>
 
-<p>Not long after that, a platform that had been known primarily for blogging started to make great strides towards full site development, suddenly WordPress was becoming a real contender for an out-of-the-box CMS that keeps clients (and developers) happy. I eased into WordPress theme development around 2010, two years later I was helping a number of local agencies figure out how their content requirements could translate into clean intuitive dashboards.</p>
+<p>Not long after that, a platform that had been known primarily for blogging started to make great strides towards full site development, suddenly WordPress was becoming a real contender for an out-of-the-box CMS. I eased into WordPress theme development around 2010, two years later I was helping a number of local agencies figure out how their content requirements could translate into clean intuitive dashboards.</p>
 
 <p>In 2015, I joined a team of brilliant developers in working on a longer term project building an application for a leading ISP, this was my crash course in Angular and a great refresher in working on a large team. No need to sweat the entire application, we all had one little piece to chew on at a time. And around halfway through 2016, I transitioned into a QA / Team Support role, it was becoming obvious that there were other directions in FED that needed exploration.</p>
 
