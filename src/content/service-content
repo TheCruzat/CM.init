@@ -14,27 +14,27 @@ Front End Dev
 
 <h2 class="topper">// Structure</h2>
 
-<p>From the very beginning, one of the few constants in web design & web/app development is the idea that the user-facing portions of the application should be as structurally solid as possible. It should work everywhere, it should never feel incorrect or "broken".</p>
+<p>From the very beginning, one of the few constants in web design & development is the idea that the user-facing portions of the application should be as structurally solid and visually consistent as possible. It should work everywhere, it should never feel incorrect or "broken".</p>
 
-<p>The implementation of that idea has changed drastically over the years, starting with table-based layouts (pre-historic times), the advent of HTML5/CSS3 (the Renaissance), and the rise of component based systems, whether in PHP (WordPress / Magento) or JavaScript (React / Vue).</p>
+<p>The implementation of that idea has changed drastically over the years, from table-based layouts (pre-historic times), the advent of HTML5/CSS3 (the responsive Renaissance), and the rise of component based systems, whether in PHP (WordPress / Magento) or JavaScript (React / Vue).</p>
 
 <h2 class="topper">// Different roads to the same result</h2>
 
-<p>PHP and JavaScript are polar opposites. PHP compiles on server side, in the back end, serving up complete HTML documents to be displayed in the browser. JavaScript does all of its work in the browser, speeding up performance and allowing for 2-way flow of data. They are substantially different approaches, languages with marked syntax distinctions but certain conceptual similarities.</p>
+<p>PHP and JavaScript are, in a certain literal sense, polar opposites. PHP compiles on server side, in the back end, serving up complete HTML documents to be displayed in the browser. JavaScript does all of its work in the browser, grabbing chunks as needed to speed up performance and allow for two-way flow of data. They are substantially different approaches, languages with marked syntax distinctions but certain conceptual similarities.</p>
 
-<p>Imagine you\'re going out to dinner. PHP is like a table service restaurant, the food is prepared and dished in a kitchen then presented to you complete. JavaScript is like the Asian style grill houses where the chef is cooking everything right in front of you, smaller dishes served with more frequency.</p>
+<p>Imagine you\'re going out to dinner. PHP is like a table service restaurant, the food is prepared and dished in a kitchen, then presented complete. JavaScript is like an Asian style grill house, the chef cooks everything to order, right in front of you, smaller dishes are served with more frequency. Different approaches with distinct advantages.</p>
 
 <div class="bumper"></div>
 
-<p>Despite this distinction, we see a similarity between both approaches in that they both land in the same result, code is delivered to a browser, an experience is rendered. The final structure is HTML, the final styling is CSS, the interactive elements are usually written in some form of JavaScript.</p>
+<p>Despite this difference, we see a similarity between both approaches in that they both land at the same result, code is delivered to a browser, an experience is rendered. The final structure is HTML, the final styling is CSS, the interactive elements are usually written in some form of JavaScript.</p>
 
-<p>Either way, you went out to eat, and hopefully, enjoyed your meal.</p>
+<p>Either way, you went out to eat, a dish was prepared and served. And hopefully, you enjoyed your meal.</p>
 
 <div class="centro">
 
 <h2 class="topper">// Common Tongues & Parlance</h2>
 
-<p>We\'re always excited to learn new systems and new methods, each subsequent wave of libraries and versions brings its own variations on this same theme. No matter what the system, there is always a place where our layouts live, always a place where styles can be placed, always a place to drop in some interactive code to let the widget do its widgeting.</p>
+<p>It is always exciting to jump into a new system or a new method, but each subsequent wave of libraries or versions always brings its own variation on this same theme. No matter what the system, there is always a place where our layouts live, always a place where styles can be placed, always a place to drop in some interactive code to let a widget do its widgeting.</p>
 
 <p>We hope that they have been prepared by a thoughtful dev, in an easy to locate / migrate template file, and not buried in the bowels of some arcane function (I do not miss the early early days of WordPress). What is beautiful about this era, with so many different roads to the same result, the best ones are travelled by brilliant open source communities that want to help stumped coders find solutions.</p>
 
@@ -42,7 +42,7 @@ Front End Dev
 
 <h2 class="topper">// Let\'s Get Busy</h2>
 
-<p>Whether you need existing layouts edited, optimized or replaced entirely, Cruzat.Media can help. Contact us today with the specifics and status of your project, we will find your solution.</p>
+<p>Whether you need existing layouts edited, optimized or replaced entirely, Cruzat.Media can help. Contact us today with the specifics and status of your project, we will help you build what you need.</p>
 
 </div>
 
@@ -56,11 +56,11 @@ WordPress
 
 <h2 class="topper">// Why We Love a Good CMS</h2>
 
-<p>In the very beginning of all this internet nonsense, editing content was a very big deal. All pages were static html files, making changes to copy required arduous and bulky backup procedures -- what passed for versioning at the time. Adding a new page almost always meant cutting new graphics for the hard-coded navigation, which then had to be cloned across all physical pages of the site.</p>
+<p>When this internet nonsense began, editing content was a very big deal. All pages were static html files, making changes required tech time and bulky backup procedures, that era\'s version of versioning. Adding a new page almost always meant cutting new graphics for the hard-coded navigation, which then had to be cloned across all physical pages of the site. Your best friend was copy\'n\'paste. Dreadful.</p>
 
-<p>By the end of the 90s, this need for flexible content management was being met by a number of competing services and technologies, but there was never a clear front runner. A culture had started for self publishing online, and soon blogs became a commonly used word and concept, available on dozens of platforms. And out of this culture grew additional technologies and services.</p>
+<p>By the end of the 90s, the need for flexible content management was being met by a number of competing services and technologies, never a clear front runner. A culture had started for self publishing online, and soon \"blogs\" became a commonly used word and concept, available on dozens of platforms. And out of this culture grew additional technologies and services.</p>
 
-<p>On May 27, 2003, Matt Mullenweg and Mike Little, building on the work of Michel Valdrighi, released WordPress into the wild. At 16 years of age, WordPress is used by 60% of all sites with known CMS\'s.</p>
+<p>On May 27, 2003, Matt Mullenweg and Mike Little, building on the work of Michel Valdrighi, released WordPress into the wild. Today, at over 15 years of age, WordPress is used by a whopping 60% of all sites with known CMS\'s.</p>
 
 <div class="bumper"></div>
 
@@ -70,15 +70,15 @@ WordPress
 
 <h2 class="topper">// Anything you can think of, and more</h2>
 
-<p>One of the great strengths of WordPress is its malleability and extensability, and it appears to be a natural part of a developer\'s journey to make the jump from using plugins to writing them oneself. The most common requirements revolve around using Custom Post Types for specialized content and fine-tuning dashboards for intuitive use.</p>
+<p>One of the great strengths of WordPress is its malleability and extensability, and it appears to be a natural part of a wp-developer\'s journey to make the jump from finding plugins to writing them. The most common requirements revolve around using Custom Post Types for specialized content and fine-tuning dashboards for intuitive use.</p>
 
-<p>In all honesty, most WordPress projects have 80-85% standardized parts, generally the client needs it to do A, B and C. But every once in a while, we get a fun ask, and we\'ve been able to figure out some great add-ons and extensions for the more unique client request. Password protected subsections, employee timecards, company bulletin boards, we have had some very interesting ideas come across the table.</p>
+<p>Most WordPress projects have 80-85% standardized parts, generally the client needs it to do A, B and C. But every once in a while, we get a fun ask, and we\'ve been able to figure out some great add-ons and extensions for the more unique client requests. Password protected subsections, employee timecards, company bulletin boards, we have delivered on some very interesting ideas that came across the table.</p>
 
 <h2 class="topper">// The Good, The Bad and the Lovely</h2>
 
-<p>WordPress is based on PHP and MySQL and it requires a compatible server to operate. And for many use cases, these are more than adequate. A number of popular platforms still use this technology, including Facebook, Wikipedia and Yahoo.</p>
+<p>WordPress is based on PHP and MySQL, it requires a compatible server to operate. For many use cases, these are more than adequate. A number of popular platforms still use this technology, including Facebook, Wikipedia and Yahoo. With proper cacheing and optimizations, a WordPress build can be lighting fast.</p>
 
-<p>There are concerns with WordPress and security, ie how hack-proof can we make this, and there are definitely steps to take to fortify a site. The standards involve cloaking the obvious tells: asset paths, login urls, other clues in the source code that tell the curious what is powering the site. There is a level of fortification that is not a question of WordPress but the server itself, and while that is not a specialization we provide directly, we know several experts on the subject if one is required on a project.</p>
+<p>There are concerns with WordPress and security, ie how hack-proof can we make this, and there are steps taken to fortify a site. The standards involve cloaking the obvious tells: asset paths, login urls, other clues in the source code that tell the curious what is powering the site. There is a level of fortification that is not a question of WordPress but the server itself, and while that is not a specialization we provide directly, we know several experts on the subject if one is required on a project.</p>
 
 <p>A future road for WordPress is being shared by much of the app / site development industry, JavaScript based systems like Vue (this website was built in Vue), React and Angular. It really is a "best of both worlds" situation, we have all of the power of WordPress content control under the hood, the JS-driven front end can access all of that content using the site\'s JSON feed, courtesy of the WP Rest API.</p>
 
@@ -88,7 +88,7 @@ WordPress
 
 <h2 class="topper">// Let\'s Get Busy</h2>
 
-<p>Whether you need an existing WordPress theme edited, optimized or replaced lock stock and barrel, Cruzat.Media can help. Contact us today with your goals and specifics, we\'ll build the site you\'re looking for.</p>
+<p>Whether you need an existing WordPress theme edited, optimized or replaced lock stock and barrel, Cruzat.Media can help. Contact us today with your goals and specifics, we\'ll help you find the site you\'re looking for.</p>
 
 </div>
 
