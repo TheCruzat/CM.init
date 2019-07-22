@@ -146,9 +146,9 @@ CSS & SASS
 
 <h2 class="topper">// Make It Beautiful</h2>
 
-<p>Before the introduction of Cascading Style Sheets as a web standard, the internet was a very drab, ugly place. Any content "styling" was done via now-extinct &lt;font&gt; tags, options were severely limited, all layouts were based on &lt;table&gt; tags, it was a mess.</p>
+<p>Before the introduction of Cascading Style Sheets as a web standard, the internet was a very drab, ugly place. Any content "styling" was done via now-extinct &lt;font&gt; tags, options were severely limited, all layouts were based on &lt;table&gt; tags, it was a bland mess.</p>
 
-<p>CSS gave us freedom and options, we could suddenly define different container sizes and properties, we could associate rules with specific tags, id\'s or classes. Site-wide changes became possible, and the internet started to look a lot better. But the intial version of the language suffered from the same limitation as early HTML, it was done based on the model of print design and was expected to follow similar rules.</p>
+<p>CSS gave us freedom and options, we could suddenly define different container sizes and properties, we could associate rules with specific tags, id\'s or classes. Site-wide changes became possible, and the internet started to look a lot better. But the intial version of the language suffered from the same limitation as early HTML, it was based on the model of print design and was expected to follow similar rules.</p>
 
 <h2 class="topper">// Give It Character</h2>
 
@@ -162,7 +162,7 @@ CSS & SASS
 
 <h2 class="topper">// Tenemos Estilo</h2>
 
-<p>The goal in styling work on any project should always be to best translate the visual creative from a flat comp to functional code. Beyond that, if dealing with an identiy with a deep presence, it also requires taking a step back to confirm that it is also aligning with the official style guide. A top tier client knows how their work should look, top tier talent can provide it.</p>
+<p>The goal in styling work on any project should always be to best translate the visual creative from a flat comp to functional code. Beyond that, if dealing with an identiy with a deep presence, it also requires taking a step back to confirm alignment with the official style guide. A top tier client knows how their work should look, top tier talent can provide it.</p>
 
 <p>These days we much prefer to use SCSS or SASS as a CSS pre-processor, it makes it much easier to nest styles, include variables and mixins, and generally making the task of writing CSS much simpler, more elegant. We can and do still right out straight CSS when it is required, usually for an inline style block in an add-on component.</p>
 
@@ -170,7 +170,7 @@ CSS & SASS
 
 <h2 class="topper">// Let\'s Get Busy</h2>
 
-<p>Whether you need current rules updated or styles from scratch, Cruzat.Media can help. Contact us today with project specifics and we will discuss the terrain.</p>
+<p>Whether you need current rules updated or styles from scratch, Cruzat.Media can help. Contact us today with a view of your big picture and we will get it looking right.</p>
 
 </div>
 
