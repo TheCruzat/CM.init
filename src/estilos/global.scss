@@ -788,7 +788,7 @@ ul.icons {
 			}
 
 			@include superbig() {
-				// font-size: 3rem;
+				font-size: 2rem;
 			}
 
 			@include ihover() {
@@ -917,22 +917,39 @@ ul.icons {
 				margin-right: -12px;
 				width: calc(100% + 24px);
 			}
+
+			@include bigger-than() {
+				width: 33.33333%;
+				margin-left: auto;
+				margin-right: auto;
+				border-left: 1px solid rgba(0,0,0,0.4);
+				border-right: 1px solid rgba(0,0,0,0.4);
+			}
   			
 
   			li {
-  				@include smaller-than() {
-  					width: 20%;
+  				// @include smaller-than() {
+  					width: 20%; // 16.66666%; // 
+  				// }
+
+  				@include bigger-than() {
+  					+li {
+  						a {
+  							border-left: 1px solid rgba(0,0,0,0.4);
+  						}
+  					}
   				}
   			}
 
   			a {
   				display: flex;
   				flex-direction: column;
-  				width: 56px;
+  				width: 100%; // 56px;
   				height: 36px;
   				justify-content: center;
   				background: transparent;
   				position: relative;
+  				border-bottom: 1px solid rgba(0,0,0,0.4);
 
   				@include smaller-than() {
   					width: 100%;
@@ -943,6 +960,8 @@ ul.icons {
   					// transition: color 0.6s ease-out;
   					background: darken(#666, 16%);
   					color: $ylo;
+  					border-bottom: none;
+
 
 	  				.frame {
 	  					@include bigger-than() {
@@ -964,6 +983,7 @@ ul.icons {
   				&.router-link-active {
   					background: $pbg;
   					color: #000;
+  					border-bottom: none;
 
   					.fa {
   						font-size: 1.6rem;
@@ -1827,17 +1847,21 @@ ul.icons {
 		border: none;
 		cursor: pointer;
 
+		@include bigger-than() {
+			line-height: 0.6;
+		}
+
 		&:nth-child(1) {
 			// margin-right: $bv;
 			@include bigger-than() {
-				border-right: 1px solid rgba(255,255,255,0.2);
+				border-right: 1px solid rgba(0,0,0,0.3);
 			}
 		}
 
 		&:nth-child(3) {
 			// margin-left: $bv;
 			@include bigger-than() {
-				border-left: 1px solid rgba(255,255,255,0.2);
+				border-left: 1px solid rgba(0,0,0,0.3);
 			}
 		}
 
@@ -1858,6 +1882,10 @@ ul.icons {
 				justify-content: center;
 			}
 		}
+
+		@include bigger-than() {
+			line-height: 36px;
+		}
 	}
 
 	button, p {
@@ -1865,6 +1893,14 @@ ul.icons {
 			width: 33.3333%;
 			height: 30px;
 		// }
+
+		text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+
+		border-bottom: 1px solid rgba(0,0,0,0.4);
+
+		@include bigger-than() {
+			height: 36px;
+		}
 	}
 
 	a, button {
