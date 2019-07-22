@@ -75,11 +75,11 @@ export default class SiteFoot extends Vue {
         link: 'https://linkedin.com/company/cruzatmedia',
         icon: 'fa-linkedin',
       },
-      {
-        label: 'CRUZAT.MEDIA on SoundCloud',
-        link: 'https://soundcloud.com/cruzatmedia',
-        icon: 'fa-soundcloud',
-      },
+      // {
+      //   label: 'CRUZAT.MEDIA on SoundCloud',
+      //   link: 'https://soundcloud.com/cruzatmedia',
+      //   icon: 'fa-soundcloud',
+      // },
     ];
     this.cells = [
       {
