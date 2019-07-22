@@ -600,7 +600,7 @@ const cc = {
 		},
 		services: {
 			title: 'What We Do',
-			content: '<p class="center-text full-w no-foot">we can assist with:</p>',
+			content: '<p class="center-text full-w no-foot">Cruzat.Media can assist your team with several tasks</p>',
 			loc: 'serv',
 			titleNav: [
 				'/about',
