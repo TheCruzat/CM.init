@@ -535,30 +535,30 @@ const cc = {
 			},
 			iconLinkRow: [
 				{
-					icon: 'fa-briefcase',
-					link: 'http://builtby.thecruzat.com',
-					title: 'Portfolio',
-				},
-				{
-					icon: 'fa-home',
-					link: 'http://thecruzat.com',
-					title: 'Homebase',
-				},
-				{
-					icon: 'fa-coffee',
-					link: 'http://coffeewith.thecruzat.com',
-					title: 'Blog',
-				},
-				{
 					icon: 'fa-plus-circle',
 					link: 'http://eencee.me',
 					title: 'E+C',
 				},
 				{
-					icon: 'fa-twitter',
-					link: 'http://twitter.com/_cruzat',
-					title: 'Follow me on Twitter',
+					icon: 'fa-briefcase',
+					link: 'http://builtby.thecruzat.com',
+					title: 'Portfolio',
 				},
+				// {
+				// 	icon: 'fa-home',
+				// 	link: 'http://thecruzat.com',
+				// 	title: 'Homebase',
+				// },
+				// {
+				// 	icon: 'fa-coffee',
+				// 	link: 'http://coffeewith.thecruzat.com',
+				// 	title: 'Blog',
+				// },
+				// {
+				// 	icon: 'fa-twitter',
+				// 	link: 'http://twitter.com/_cruzat',
+				// 	title: 'Follow me on Twitter',
+				// },
 				{
 					icon: 'fa-linkedin',
 					link: 'https://www.linkedin.com/in/dancruzat/',
