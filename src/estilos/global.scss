@@ -37,10 +37,12 @@ img {
 
 	&.enc {
 		@include bigger-than() {
-			margin-bottom: 9rem;
+			margin-top: 3rem;
+			margin-bottom: 7rem;
 		}
 		@include bigger-than($bpx2) {
-			margin-bottom: 5rem;
+			margin-top: 4rem;
+			margin-bottom: 4rem;
 		}
 	}
 }
