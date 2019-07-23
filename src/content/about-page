@@ -36,7 +36,7 @@
 
 <h2 class="hili biggie">Hi, my name is Dan Cruzat and I\'m a big ol nerd.</h2>
 
-<img class="bigshot f-right" src="'+mE+'" alt="Dan Cruzat">
+<img class="bigshot f-right edge" src="'+mE+'" alt="Dan Cruzat">
 
 <h3 class="topper">// From the top</h3>
 
