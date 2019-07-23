@@ -1650,17 +1650,21 @@ ul.icons {
 		height: 94px;
 
 		a {
-			display: block;
+			display: flex;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
 			font-size: 1.8rem;
 			margin: $bv $bv/3;
-			color: #666;
+			color: #999!important;
 			transition: all 0.2s;
+			width: 38px;
 
 			@include ihover() {
 				&:hover {
-					color: #000;
-					margin: $bv $bv/1.5;
-					font-size: 2rem;
+					color: #000!important;
+					// margin: $bv $bv/1.5;
+					font-size: 2.4rem;
 				}
 			}
 		}
