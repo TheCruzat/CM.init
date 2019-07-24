@@ -187,12 +187,14 @@ Landing
 
 <p>We used a standardized <strong>JSON</strong> object and an extensible template set, so even if the site is not officially connected to a content management system, it will be not be difficult to implement site additions for any future releases or activity.</p>
 
-<p>This was our first project in <a href="https://vuejs.org/v2/guide/installation.html#NPM" target="_blank">Vue.js V2</a>. Always interesting how certain core concepts translate into new systems, slightly or majorly different than what one is used to.</p>
+<p>This was an early project for us in <a href="https://vuejs.org/v2/guide/installation.html#NPM" target="_blank">Vue.js V2</a>. Always interesting how certain core concepts translate into new systems, slightly or majorly different than what one is used to.</p>
 
-<h2 class="hili">!! Disclaimer !!</h2>
+<!--h2 class="hili">!! Disclaimer !!</h2>
 
 <p><strong>Camp Bell</strong> speaks to certain social and political perspectives and is not appropriate for all listeners. They also deal with themes of depression and death, some listeners will find it disturbing.</p>
 
-<p>Mature ears in appropriate spaces only. They strive for NSFW.</p>
+<p>Mature ears in appropriate spaces only. They strive for NSFW.</p -->
+
+<h2 class="hili"><i class="fa fa-shower"></i> site nears completion <i class="fa fa-shower"></i></h2>
 
 </div>
