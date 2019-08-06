@@ -9,7 +9,7 @@
           <h3>We Are Social</h3-->
 
           <ul class="labels">
-            <li><a @click="cookMail('inquiries@cruzat.media', 'Hello CRUZAT.MEDIA')" :aria-label="Email Cruzat Media">
+            <li><a @click="cookMail('inquiries@cruzat.media', 'Hello CRUZAT.MEDIA')" aria-label="Email Cruzat Media">
               <i class="fa fa-envelope"></i>
               <span>email c.m</span>
             </a></li>
