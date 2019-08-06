@@ -9,10 +9,10 @@
         <div v-if="art" class="art-shell">
           <img class="shade art" :src="art" alt="" />
           <div v-if="links" class="button-rack">
-            <a v-for="link in links" :href="link.url" v-html="link.label" class="button"></a>
+            <a v-for="link in links" :href="link.url" v-html="link.label" :aria-label="link.label" class="button"></a>
           </div>
           <div v-if="navlinks" class="button-rack">
-            <router-link v-for="link in navlinks" :to="link.url" v-html="link.label" class="button"></router-link>
+            <router-link v-for="link in navlinks" :to="link.url" v-html="link.label" :aria-label="link.label" class="button"></router-link>
           </div>
           <div v-if="content" v-html="content"></div>
         </div>
@@ -21,11 +21,11 @@
           <div v-if="content" v-html="content"></div>
           <ul class="icons icon-sub" v-if="icons">
             <li v-for="item in icons" :popcon="item.content">
-              <router-link :to="item.route"><i :class="item.icon" class="fa"></i><span v-html="item.title "></span></router-link>
+              <router-link :to="item.route" :aria-label="item.title"><i :class="item.icon" class="fa"></i><span v-html="item.title "></span></router-link>
             </li>
           </ul>
           <div v-if="navlinks" class="button-rack">
-            <router-link v-for="link in navlinks" :to="link.url" v-html="link.label" class="button"></router-link>
+            <router-link v-for="link in navlinks" :to="link.url" :aria-label="link.label" v-html="link.label" class="button"></router-link>
           </div>
         </div>
 
@@ -35,10 +35,10 @@
           <h3 v-if="title" v-html="title"></h3>
           <div v-if="content && img" v-html="content"></div>
           <div v-if="links" class="button-rack">
-            <a v-for="link in links" :href="link.url" v-html="link.label" class="button"></a>
+            <a v-for="link in links" :href="link.url" v-html="link.label" :aria-label="link.label" class="button"></a>
           </div>
           <div v-if="navlinks" class="button-rack">
-            <router-link v-for="link in navlinks" :to="link.url" v-html="link.label" class="button"></router-link>
+            <router-link v-for="link in navlinks" :to="link.url" :aria-label="link.label" v-html="link.label" class="button"></router-link>
           </div>
         </div>
 

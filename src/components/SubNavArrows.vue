@@ -1,8 +1,8 @@
 <template>
   <div :class="classes"><div class="contain">
-    <button @click.prevent="flipProj('--')"><i class="fa fa-angle-left"></i></button>
-    <p><router-link :to="troute" v-html="title"></router-link></p>
-    <button @click.prevent="flipProj('++')"><i class="fa fa-angle-right"></i></button>
+    <button :aria-label="previous Project" @click.prevent="flipProj('--')"><i class="fa fa-angle-left"></i></button>
+    <p><router-link :to="troute" :aria-label="title" v-html="title"></router-link></p>
+    <button :aria-label="next Project" @click.prevent="flipProj('++')"><i class="fa fa-angle-right"></i></button>
   </div></div>
 </template>
 

@@ -9,7 +9,7 @@
           <h3>We Are Social</h3-->
 
           <ul class="labels">
-            <li><a @click="cookMail('inquiries@cruzat.media', 'Hello CRUZAT.MEDIA')">
+            <li><a @click="cookMail('inquiries@cruzat.media', 'Hello CRUZAT.MEDIA')" :aria-label="Email Cruzat Media">
               <i class="fa fa-envelope"></i>
               <span>email c.m</span>
             </a></li>
@@ -20,7 +20,7 @@
           </ul>
 
           <ul>
-            <li v-for="lnk in soclnx"><a :href="lnk.link" :title="lnk.label" target="_blank">
+            <li v-for="lnk in soclnx"><a :href="lnk.link" :title="lnk.label" :aria-label="lnk.label" target="_blank">
               <i class="fa" :class="lnk.icon"></i>
               <span>@cruzatmedia</span>
             </a></li>

@@ -7,7 +7,7 @@
 			<div class="contain" v-html="core.content"></div>
 
 			<div v-if="set" class="contain set">
-				<router-link v-for="link in set" :to="link.route">
+				<router-link v-for="link in set" :aria-label="link.title" :to="link.route">
 					<img :src="link.img" />
 					<div class="frame"><div class="ribbon">
 						<h2 v-html="link.title"></h2>

@@ -13,7 +13,7 @@
 			<div v-if="core.lastCalls" v-for="(call, index) in core.lastCalls" class="contain last-calls">
 				<div v-if="index>0" class="bumper full"></div>
 				<div class="button-rack bump-2op">
-					<a :href="call.url" class="button grande" target="_blank" v-html="call.label"></a>
+					<a :href="call.url" class="button grande" target="_blank" :aria-label="call.label" v-html="call.label"></a>
 				</div>
 				<img class="wideshot edge pad-bv white-bg bump-top" :src="call.img" :alt="core.title">
 			</div>

@@ -1,9 +1,9 @@
 <template>
 	<div class="button-rack" :class="classes">
     <div v-if="screen" class="screen"></div>
-    <a class="button" :class="bnclass" v-if="linkLabel && linkURL" :href="linkURL" target="_blank" v-html="linkLabel"></a>
-    <a class="button" :class="bnclass" v-if="buttons && buttons.links" v-for="link in buttons.links" :href="link.url" target="_blank" v-html="link.label"></a>
-    <router-link class="button" :class="bnclass" v-if="buttons && buttons.routes" v-for="route in buttons.routes" :to="route.url" v-html="route.label"></router-link>
+    <a class="button" :aria-label="linkLabel" :class="bnclass" v-if="linkLabel && linkURL" :href="linkURL" target="_blank" v-html="linkLabel"></a>
+    <a class="button" :class="bnclass" v-if="buttons && buttons.links" v-for="link in buttons.links" :href="link.url" target="_blank" :aria-label="link.label" v-html="link.label"></a>
+    <router-link class="button" :class="bnclass" v-if="buttons && buttons.routes" v-for="route in buttons.routes" :to="route.url" :aria-label="route.label" v-html="route.label"></router-link>
   </div>
 </template>
 

@@ -1,10 +1,10 @@
 <template>
 	<div :classes="classes" class="full-title">
-    <router-link class="tnav" v-if="tnav" :to="tnav[0]"><i class="fa fa-chevron-left"></i></router-link>
+    <router-link aria-label="Previous Section" class="tnav" v-if="tnav" :to="tnav[0]"><i class="fa fa-chevron-left"></i></router-link>
     <div class="contain">
       <h1 v-html="title"></h1>
     </div>
-    <router-link class="tnav" v-if="tnav" :to="tnav[1]"><i class="fa fa-chevron-right"></i></router-link>
+    <router-link aria-label="Next Section" class="tnav" v-if="tnav" :to="tnav[1]"><i class="fa fa-chevron-right"></i></router-link>
   </div>
 </template>
 

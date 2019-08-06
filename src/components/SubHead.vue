@@ -2,7 +2,7 @@
 	<header :class="{ 'has-bt' : hasBigTitle }">
 		<div class="top">
 			<div class="contain">
-				<router-link to="/" class="brand">
+				<router-link to="/" class="brand" :aria-label="return to main">
 					<img :src="brandB" class="des" alt="cruzat.media">
 					<img :src="iconB" class="mob" alt="cruzat.media">
 				</router-link>
@@ -11,7 +11,7 @@
 					<div class="nav-loc">
 						<span class="loc" @click="showNav = !showNav">c.m:\{{type}}></span>
 						<span class="nav">
-							<router-link to="/services">services</router-link><span class="dv"> : </span><router-link to="/projects">projects</router-link><span class="dv"> : </span><router-link to="/about">about</router-link><!--router-link to="/contact">contact</router-link><span class="dv"> : </span-->
+							<router-link to="/services" :aria-label="go to Services">services</router-link><span class="dv"> : </span><router-link to="/projects" :aria-label="go to Projects">projects</router-link><span class="dv"> : </span><router-link to="/about" :aria-label="read more about Cruzat Media">about</router-link><!--router-link to="/contact">contact</router-link><span class="dv"> : </span-->
 						</span>
 					</div><button v-if="sound" @click.prevent="playSound(sound)">play page</button>
 				</div>

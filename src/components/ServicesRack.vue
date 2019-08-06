@@ -1,7 +1,7 @@
 <template>
 	<ul class="icon-sub" v-if="icons">
 		<li v-for="item in icons" :popcon="item.content">
-			<router-link :to="item.route">
+			<router-link :to="item.route" :aria-label="item.title">
 				<i :class="item.icon" class="fa"></i>
 				<div class="frame"><span v-html="item.title "></span></div>
 			</router-link>
