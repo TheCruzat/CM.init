@@ -42,11 +42,11 @@ export default class ServicesRack extends Vue {
         icon: 'fa-paint-brush',
         route: '/services/css',
       },
-      // {
-      //   title: 'Audio Recording',
-      //   icon: 'fa-microphone',
-      //   route: '/services/audio-recording',
-      // },
+      {
+        title: 'Audio Recording',
+        icon: 'fa-microphone',
+        route: '/services/audio-recording',
+      },
       {
         title: 'Team Support',
         icon: 'fa-coffee',
