@@ -115,15 +115,15 @@ const cc = {
 				  //   route: '/services/sound-design',
 				  // },
 				  {
+				    title: 'Audio Recording',
+				    icon: 'fa-microphone',
+				    route: '/services/audio-recording',
+				  },
+				  {
 				    title: 'Team Support',
 				    icon: 'fa-coffee',
 				    route: '/services/team-support',
 				  },
-				  // {
-				  //   title: 'Audio Recording',
-				  //   icon: 'fa-microphone',
-				  //   route: '/services/audio-recording',
-				  // },
 				],
 			},
 			{
@@ -590,6 +590,10 @@ const cc = {
 				},
 				{
 					url: '/services/css',
+					label: 'css with style',
+				},
+				{
+					url: '/services/audio-recording',
 					label: 'css with style',
 				},
 				{
