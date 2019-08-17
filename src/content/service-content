@@ -103,19 +103,19 @@ UX Strategy
 
 <h2 class="topper">// Never Get Lost</h2>
 
-<p>One of the main goals of interactive development, regardless of the platform used, is that your user should never feel lost in the experience. They should always know where they are, how they got there, and how to get to other sections or content.</p>
+<p>One of the main goals of interactive development, regardless of platform, is that your user should never feel lost in the experience. They should always know where they are, how they got there, and how to get to other sections or content.</p>
 
 <p>If you have ever felt lost or confused on a website or in an application, you know how frustrating it can be to the user when this skill and its execution are not properly valued in the creation of that experience.</p>
 
 <h2 class="topper">// Always Plan Your Trips</h2>
 
-<p>Before any design or development can begin on a project, work must be done to map out what content will live in which sections, or the Information Architecture. Then we build our connections, planning routes between sections, allowing for relevant options along the way. This flow from one section to the next, the way in which different options are presented, this is the fine art of the User Experience.</p>
+<p>Before any design or development can begin on a project, work must be done to map out what content will live in which sections, the Information Architecture. Then we build our connections, planning routes between sections, allowing for relevant options along the way. This flow from one section to the next, the way in which different options are presented, this is the fine art of the User Experience.</p>
 
 <div class="bumper"></div>
 
-<p>Completed properly, this should provide a complete roadmap of the experience and the user\'s movements through it at different stages and states. When executed to perfection, everything always feels simple and easy for the user. They may feel frustration at having to provide an email address for a whitepaper, but they should never be frustrated along the road to that decision.</p>
+<p>Completed properly, this should provide a complete roadmap of the site/app and the user\'s movements through it at different stages and states. When executed to perfection, everything always feels simple and easy for the user. They may feel frustration at having to provide an email address for a whitepaper, but they should never be frustrated along the road to that decision.</p>
 
-<p>In fact, if executed properly, good UX work shouldn\'t even be noticed. Clean and intuitive, a finished layout may appear simple and easy, but reflecting an extensive process of revision and rework.</p>
+<p>In fact, if executed properly, good UX work shouldn\'t even be noticed. Clean and intuitive, a finished layout may appear simple and easy, but reflecting an extensive process of revision, review and refinement.</p>
 
 <div class="centro">
 
@@ -129,7 +129,7 @@ UX Strategy
 
 <p>The core concept remains, your user should never feel lost or confused. They can move through an experience with purpose, relevant signage along the road to help them find their way around.</p>
 
-<p>The finesse is in the strategy of knowing the sequence to walk a user through to reach certain goals. Anticipating the needs of different scenarios in different stages, knowing which calls to action belong at which points along the road. A clean strategy makes all the difference in an experience.</p>
+<p>The finesse is in the strategy of knowing the sequence to walk a user through to reach certain goals. Anticipating the needs of different scenarios or stages, knowing which calls to action belong at which points along the road. A clean strategy makes all the difference.</p>
 
 <div class="bumper"></div>
 
