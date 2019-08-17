@@ -58,9 +58,9 @@ WordPress
 
 <h2 class="topper">// Why We Love a Good CMS</h2>
 
-<p>When this internet nonsense began, editing content was a very big deal. All pages were static html files, making changes required tech time and bulky backup procedures, that era\'s version of versioning. Adding a new page almost always meant cutting new graphics for the hard-coded navigation, which then had to be cloned across all physical pages of the site. Your best friend was copy\'n\'paste. Dreadful.</p>
+<p>When this internet nonsense began, editing content was a big deal. All pages were static html files, making changes required tech time and bulky backup procedures. Adding a new page usually meant cutting new graphics for the hard-coded navigation, then cloning that across all physical pages of the site. Your best friend was copy\'n\'paste. Dreadful.</p>
 
-<p>By the end of the 90s, the need for flexible content management was being met by a number of competing services and technologies, never a clear front runner. A culture had started for self publishing online, and soon \"blogs\" became a commonly used word and concept, available on dozens of platforms. And out of this culture grew additional technologies and services.</p>
+<p>By the end of the 90s, the need for flexible content management was being met by a number of competing services and apps, never a clear front runner. A culture had started for self publishing online, and soon \"blogs\" became a commonly used word and concept, available on dozens of platforms. Out of this culture grew additional technologies and apps.</p>
 
 <p>On May 27, 2003, Matt Mullenweg and Mike Little, building on the work of Michel Valdrighi, released WordPress into the wild. Today, at over 15 years of age, WordPress is used by a whopping 60% of all sites with known CMS\'s.</p>
 
@@ -72,17 +72,17 @@ WordPress
 
 <h2 class="topper">// Anything you can think of, and more</h2>
 
-<p>One of the great strengths of WordPress is its malleability and extensability, and it appears to be a natural part of a wp-developer\'s journey to make the jump from finding plugins to writing them. The most common requirements revolve around using Custom Post Types for specialized content and fine-tuning dashboards for intuitive use.</p>
+<p>One of the great strengths of WordPress is its malleability and extensability, apparently a natural part of a wp-developer\'s journey is making the jump from finding plugins to writing them. The most common requirements revolve around using Custom Post Types for specialized content and fine-tuning dashboards for intuitive use.</p>
 
-<p>Most WordPress projects have 80-85% standardized parts, generally the client needs it to do A, B and C. But every once in a while, we get a fun ask, and we\'ve been able to figure out some great add-ons and extensions for the more unique client requests. Password protected subsections, employee timecards, company bulletin boards, we have delivered on some very interesting ideas that came across the table.</p>
+<p>Most WordPress projects have 80-85% standardized parts, generally the client needs it to do A, B and C. But every once in a while, we get a fun ask, and we\'ve been able to figure out some great add-ons and extensions for the more unique requests. Custom password protected subsections, employee timecards, company bulletin boards, we have delivered on some very interesting ideas that came across the table.</p>
 
 <h2 class="topper">// The Good, The Bad and the Lovely</h2>
 
-<p>WordPress is based on PHP and MySQL, it requires a compatible server to operate. For many use cases, these are more than adequate. A number of popular platforms still use this technology, including Facebook, Wikipedia and Yahoo. With proper cacheing and optimizations, a WordPress build can be lighting fast.</p>
+<p>WordPress is based on PHP and MySQL, requiring a compatible server to operate. For many use cases, these are more than adequate. A number of popular platforms still use this technology, including Facebook, Wikipedia and Yahoo. With proper cacheing and optimizations, a WordPress build can be lighting fast.</p>
 
-<p>There are concerns with WordPress and security, ie how hack-proof can we make this, and there are steps taken to fortify a site. The standards involve cloaking the obvious tells: asset paths, login urls, other clues in the source code that tell the curious what is powering the site. There is a level of fortification that is not a question of WordPress but the server itself, and while that is not a specialization we provide directly, we know several experts on the subject if one is required on a project.</p>
+<p>There are concerns with WordPress and security, ie how hack-proof can we make this, we take steps to fortify a site. Standards involve cloaking obvious tells: asset paths, login urls, other clues in the source code that tell the curious what is powering the site. There is a level of fortification that is not a question of WordPress but the server itself, and while that is not a specialization we provide directly, we know several experts on the subject if one is required on a project.</p>
 
-<p>A future road for WordPress is being shared by much of the app / site development industry, JavaScript based systems like Vue (this website was built in Vue), React and Angular. It really is a "best of both worlds" situation, we have all of the power of WordPress content control under the hood, the JS-driven front end can access all of that content using the site\'s JSON feed, courtesy of the WP Rest API.</p>
+<p>A future road for WordPress is being shared by much of the app / site development industry, JavaScript based systems like Vue (this website was built in Vue), React and Angular. It really is a "best of both worlds" situation, we have all of the power of WordPress content control under the hood, the JS-driven front end can access all of that content using the WP Rest API.</p>
 
 <p class="hili">Cruzat.Media is currently developing a number of demo\'s to showcase the possibilities of a custom WordPress system feeding a monster built in Vue or React.</p>
 
