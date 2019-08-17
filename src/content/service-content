@@ -16,19 +16,19 @@ Front End Dev
 
 <h2 class="topper">// Structure</h2>
 
-<p>From the very beginning, one of the few constants in web design & development is the idea that the user-facing portions of the application should be as structurally solid and visually consistent as possible. It should work everywhere, it should never feel incorrect or "broken".</p>
+<p>From the very beginning, a rare constant in web design & development is the idea that the user-facing portions of the application should be as structurally solid and visually consistent as possible. It should work everywhere, it should never feel incorrect or "broken".</p>
 
-<p>The implementation of that idea has changed drastically over the years, from table-based layouts (pre-historic times), the advent of HTML5/CSS3 (the responsive Renaissance), and the rise of component based systems, whether in PHP (WordPress / Magento) or JavaScript (React / Vue).</p>
+<p>The implementation of that idea has changed drastically over the years, from table-based layouts (pre-historic times), the advent of HTML5/CSS3 (the responsive Renaissance), and the rise of component based systems, from PHP to the more modern JavaScript frameworks.</p>
 
 <h2 class="topper">// Different roads to the same result</h2>
 
-<p>PHP and JavaScript are, in a certain literal sense, polar opposites. PHP compiles on server side, in the back end, serving up complete HTML documents to be displayed in the browser. JavaScript does all of its work in the browser, grabbing chunks as needed to speed up performance and allow for two-way flow of data. They are substantially different approaches, languages with marked syntax distinctions but certain conceptual similarities.</p>
+<p>PHP and JavaScript are, in a certain literal sense, polar opposites. PHP compiles on server side, in the back end, serving up complete HTML documents to the browser. JavaScript does all of its work in the browser, grabbing chunks as needed to speed up performance and allow for two-way flow of data. They are entirely different approaches, languages with marked syntax distinctions but certain conceptual similarities.</p>
 
 <p>Imagine you\'re going out to dinner. PHP is like a table service restaurant, the food is prepared and dished in a kitchen, then presented complete. JavaScript is like an Asian style grill house, the chef cooks everything to order, right in front of you, smaller dishes are served with more frequency. Different approaches with distinct advantages.</p>
 
 <div class="bumper"></div>
 
-<p>Despite this difference, we see a similarity between both approaches in that they both land at the same result, code is delivered to a browser, an experience is rendered. The final structure is HTML, the final styling is CSS, the interactive elements are usually written in some form of JavaScript.</p>
+<p>Despite this difference, we see a similarity between both approaches in that they both land at the same result, code is delivered to browser, an experience is rendered. The final structure is HTML, the final styling is CSS, the interactive elements are usually written in some form of JavaScript.</p>
 
 <p>Either way, you went out to eat, a dish was prepared and served. And hopefully, you enjoyed your meal.</p>
 
@@ -36,9 +36,9 @@ Front End Dev
 
 <h2 class="topper">// Common Tongues & Parlance</h2>
 
-<p>It is always exciting to jump into a new system or a new method, but each subsequent wave of libraries or versions always brings its own variation on this same theme. No matter what the system, there is always a place where our layouts live, always a place where styles can be placed, always a place to drop in some interactive code to let a widget do its widgeting.</p>
+<p>Jumping into a new system or a new method is exciting, but each wave of libraries or versions always brings its own variation on this same theme. No matter what the system, there is always a place where our layouts live, always a place where styles can be placed, always a place to drop in some interactive code to let a widget do its widgeting.</p>
 
-<p>We hope that they have been prepared by a thoughtful dev, in an easy to locate / migrate template file, and not buried in the bowels of some arcane function (I do not miss the early early days of WordPress). What is beautiful about this era, with so many different roads to the same result, the best ones are travelled by brilliant open source communities that want to help stumped coders find solutions.</p>
+<p>We hope that they have been prepared by a thoughtful dev, in an easy to locate / migrate template file, and not buried in the bowels of some arcane function -- the halcyon frustration of the early days of WordPress. What is beautiful about this era, with so many different roads to the same result, is the best ones are travelled by brilliant open source communities that want to help stumped coders find solutions.</p>
 
 <div class="bumper"></div>
 
