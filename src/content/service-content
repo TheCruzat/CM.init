@@ -148,25 +148,25 @@ CSS & SASS
 
 <h2 class="topper">// Make It Beautiful</h2>
 
-<p>Before the introduction of Cascading Style Sheets as a web standard, the internet was a very drab, ugly place. Any content "styling" was done via now-extinct &lt;font&gt; tags, options were severely limited, all layouts were based on &lt;table&gt; tags, it was a bland mess.</p>
+<p>Before we had Cascading Style Sheets as a web standard, the internet was a very drab, ugly place. Any "styling" was done via now-extinct &lt;font&gt; tags, options were severely limited, all layouts were based on &lt;table&gt; tags, it was a messy blah.</p>
 
-<p>CSS gave us freedom and options, we could suddenly define different container sizes and properties, we could associate rules with specific tags, id\'s or classes. Site-wide changes became possible, and the internet started to look a lot better. But the intial version of the language suffered from the same limitation as early HTML, it was based on the model of print design and was expected to follow similar rules.</p>
+<p>CSS gave us freedom and options, we could better define container sizes and properties, we could associate rules with specific tags, id\'s or classes. Site-wide changes became possible, and the internet started to look a lot better. But the intial version of the language suffered from the same limitation as early HTML, it was based on the model of print design and was expected to follow similar rules.</p>
 
 <h2 class="topper">// Give It Character</h2>
 
-<p>Many of these limitations only became apparent once the rules were used commonly. The first one that comes to mind is the "clear fix" solution for content collisions on floated objects, why every modern HTML structural framework (such as Bootstrap or Foundation) has a clearfix() built in. But it was clear that these new, often dynamic documents had to be looked at as their own beast, and not compared with print.</p>
+<p>Many of these limitations only became apparent once the rules were used commonly. The first one that comes to mind is the "clear fix" solution for content collisions on floated objects, why every modern HTML structural framework (such as Bootstrap or Foundation) has a clearfix() built in. It became clear these new and often dynamic documents had to be looked at as their own beast, not neu-print.</p>
 
 <div class="bumper"></div>
 
-<p>This encouraged the development of CSS2 and, in time, CSS3, styling languages that not only resolved issues that arose in the course of real world development, but also lent themselves to true refinement and polish. The irony being that once the language began to push beyond layout solutions born of the printing press, a primary focus was now to give the styling true character.</p>
+<p>This encouraged the development of CSS2 and, in time, CSS3, styling languages that not only resolved issues that arose in the course of real world development, but also lent themselves to true refinement and polish. It is ironic that once the language began to push beyond layout solutions born of the printing press, a primary focus was now to give a page true character.</p>
 
 <div class="centro">
 
 <h2 class="topper">// Tenemos Estilo</h2>
 
-<p>The goal in styling work on any project should always be to best translate the visual creative from a flat comp to functional code. Beyond that, if dealing with an identiy with a deep presence, it also requires taking a step back to confirm alignment with the official style guide. A top tier client knows how their work should look, top tier talent can provide it.</p>
+<p>The goal in styling work on any project should always be to best translate the visual creative from a flat comp to functional code. Beyond that, if dealing with an identiy with a deep presence, we require a step back to confirm alignment with the official style guide. A top tier client knows how their work should look, top tier talent can provide it.</p>
 
-<p>These days we much prefer to use SCSS or SASS as a CSS pre-processor, it makes it much easier to nest styles, include variables and mixins, and generally making the task of writing CSS much simpler, more elegant. We can and do still right out straight CSS when it is required, usually for an inline style block in an add-on component.</p>
+<p>These days we prefer to use SCSS or SASS as a CSS pre-processor, it makes it much easier to nest styles, include variables and mixins, and write complex rules quickly. We can and do still right out straight CSS when it is required, usually for an inline style block in an add-on component.</p>
 
 <div class="bumper"></div>
 
