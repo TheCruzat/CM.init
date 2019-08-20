@@ -1,7 +1,6 @@
 <template>
 	<div class="section" :class="flavor">
 		<SubHead :title="core.title" :type="core.loc" :flavor="flavor" />
-		<BigTitle :title="flavor" :tnav="core.titleNav" />
 		<section class="content">
 
 			<div class="contain" v-html="core.content"></div>
@@ -34,7 +33,6 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import SiteFoot from '@/components/SiteFoot.vue'; // @ is an alias to /src
 import SubHead from '@/components/SubHead.vue'; // @ is an alias to /src
-import BigTitle from '@/components/BigTitle.vue';
 import ServicesRack from '@/components/ServicesRack.vue'; // @ is an alias to /src
 import ButtonRack from '@/components/ButtonRack.vue';
 
@@ -44,7 +42,6 @@ import ButtonRack from '@/components/ButtonRack.vue';
     SiteFoot,
     SubHead,
     ServicesRack,
-    BigTitle,
     ButtonRack,
   },
 })

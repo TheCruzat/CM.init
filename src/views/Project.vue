@@ -1,8 +1,6 @@
 <template>
 	<div class="project">
 		<SubHead :title="core.title" :type="core.loc" hasBigTitle="true" :sound="core.audio" />
-		<BigTitle :title="core.title" :tnav="core.titleNav" :substrip="core.strip" :subnav="set" :flavor="flavor"  />
-
 	    <div v-if="set" class="full-title-substrip" v-bind:style="{ 'backgroundColor': core.stripColor }" >
 	      <SubNavArrows v-if="set" title="see all projects" :subnav="set" :me="core.title" troute="/projects" />
 	    </div>
@@ -33,7 +31,6 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import SiteFoot from '@/components/SiteFoot.vue'; // @ is an alias to /src
 import SubHead from '@/components/SubHead.vue'; // @ is an alias to /src
-import BigTitle from '@/components/BigTitle.vue';
 import ButtonRack from '@/components/ButtonRack.vue';
 import SubNavArrows from '@/components/SubNavArrows.vue';
 
@@ -44,7 +41,6 @@ import SubNavArrows from '@/components/SubNavArrows.vue';
   	SubHead,
     SiteFoot,
     ButtonRack,
-    BigTitle,
     SubNavArrows,
   },
 })

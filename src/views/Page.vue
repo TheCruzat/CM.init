@@ -1,7 +1,6 @@
 <template>
 	<div class="page">
 		<SubHead :title="core.title" :type="core.loc" />
-		<BigTitle :title="core.title" :tnav="core.titleNav" />
 		<section class="content">
 			<div class="contain" v-html="core.content"></div>
 
@@ -23,7 +22,6 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import SiteFoot from '@/components/SiteFoot.vue'; // @ is an alias to /src
 import SubHead from '@/components/SubHead.vue'; // @ is an alias to /src
-import BigTitle from '@/components/BigTitle.vue';
 import ButtonRack from '@/components/ButtonRack.vue';
 
 
@@ -31,7 +29,6 @@ import ButtonRack from '@/components/ButtonRack.vue';
   components: {
     SiteFoot,
     SubHead,
-    BigTitle,
     ButtonRack,
   },
 })
