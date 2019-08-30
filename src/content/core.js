@@ -86,7 +86,7 @@ const cc = {
 				classes: 'alert',
 			},
 			{
-				classes: 'tall services',
+				classes: 'natural tall services',
 				title: 'here to assist with',
 				icons: [
 				  {
