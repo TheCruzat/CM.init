@@ -648,7 +648,7 @@ ul.icons {
 				&:hover {
 					color: #000;
 					background: #fff;
-					border: 4px solid #000;
+					border: 1px solid #000;
 
 					.fa {
 						font-size: 3.6rem;
@@ -1562,7 +1562,7 @@ ul.icons {
 				@include bigger-than($bpx2) {
 					width: 50%;
 				}
-				border: 4px solid #000;
+				border: 1px solid #000;
 				box-sizing: border-box;
 				margin-top: $bv*2;
 
@@ -1718,7 +1718,7 @@ ul.icons {
 }
 
 .edge {
-    border: 1px solid #ddd;// 4px solid #000; // 
+    border: 1px solid #000;// 4px solid #000; // 
     // box-shadow: 0 0 10px #eee;
 }
 
