@@ -431,7 +431,12 @@ a {
 
 	&.natural {
 	  min-height: 0vh;
-	  padding-bottom: 5%;
+	  height: auto;
+	  padding-bottom: 0; // 5%;
+	  	.cell-frame {
+	  		padding-top: 48px;
+	  		position: relative;
+	  	}
 	}
 
 	+ .cell {
@@ -615,7 +620,7 @@ ul.icons {
 		}
 
 		@include bigger-than() {
-			width: 20%;
+			// width: 20%;
 		}
 
 		.fa {
