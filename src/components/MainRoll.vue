@@ -16,7 +16,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 import Cell from '@/components/Cell.vue';
 import SiteFoot from '@/components/SiteFoot.vue';
 
-import brandB from '@/assets/cm-logo-v2-b.svg';
+import brandB from '@/assets/cm-logo-v2-y.svg';
 import cc from '@/content/core.js';
 
 @Component({

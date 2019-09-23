@@ -292,7 +292,7 @@ a {
 			min-height: 97vh;
 		}
 	  
-	  background: $ylo;
+	  background: #000; // $ylo;
 	  z-index: 1;
 	  padding-bottom: 0;
 	  @include flex-center();
