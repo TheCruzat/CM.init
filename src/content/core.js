@@ -49,7 +49,7 @@ const cc = {
 			{
 				title: 'AT&T Foundry',
 				content: '<p>A custom WordPress theme for AT&T\'s innovation division</p>',
-				classes: 'half',
+				classes: 'tall',
 				img: logoATTF,
 				navlinks: [
 				  {
@@ -66,6 +66,18 @@ const cc = {
 				navlinks: [
 				  {
 				    url: '/projects/modern-adventure',
+				    label: 'Learn More',
+				  },
+				],
+			},
+			{
+				title: 'Industrial Commercial Electric',
+				content: '<p>Responsive WordPress site for OR central services company</p>',
+				classes: 'half',
+				img: logoICE,
+				navlinks: [
+				  {
+				    url: '/projects/ice',
 				    label: 'Learn More',
 				  },
 				],
@@ -119,40 +131,28 @@ const cc = {
 				    icon: 'fa-microphone',
 				    route: '/services/audio-recording',
 				  },
-				  {
-				    title: 'Team Support',
-				    icon: 'fa-coffee',
-				    route: '/services/team-support',
-				  },
+				  // {
+				  //   title: 'Team Support',
+				  //   icon: 'fa-coffee',
+				  //   route: '/services/team-support',
+				  // },
 				],
 			},
-			{
-				classes: 'alert',
-			},
-			{
-				title: 'Industrial Commercial Electric',
-				content: '<p>Responsive WordPress site for OR central services company</p>',
-				classes: 'half',
-				img: logoICE,
-				navlinks: [
-				  {
-				    url: '/projects/ice',
-				    label: 'Learn More',
-				  },
-				],
-			},
-			{
-				title: 'Camp Bell',
-				content: '<p>Responsive Vue build for odd rap group</p>',
-				classes: 'half',
-				img: cvrGIAC,
-				navlinks: [
-				  {
-				    url: '/projects/camp-bell',
-				    label: 'Learn More',
-				  },
-				],
-			},
+			// {
+			// 	classes: 'alert',
+			// },
+			// {
+			// 	title: 'Camp Bell',
+			// 	content: '<p>Responsive Vue build for odd rap group</p>',
+			// 	classes: 'half',
+			// 	img: cvrGIAC,
+			// 	navlinks: [
+			// 	  {
+			// 	    url: '/projects/camp-bell',
+			// 	    label: 'Learn More',
+			// 	  },
+			// 	],
+			// },
 			{
 				classes: 'alert',
 			},
@@ -335,7 +335,7 @@ const cc = {
 				}],
 			},
 		},
-		giac: {
+		/*giac: {
 			title: 'Camp Bell',
 			img: cvrGIAC,
 			stripColor: '#b70400',
@@ -380,7 +380,7 @@ const cc = {
 					label: 'css with style',
 				}],
 			}
-		},
+		},*/
 		// coll: {
 		// 	title: 'The Collection',
 		// 	img: cvrGH,
@@ -464,17 +464,17 @@ const cc = {
 				'/projects',
 			],
 		},
-		team: {
-			title: 'Team Support',
-			content: '<img class="bigshot edge f-right" src="'+team+'" alt="Team Support"><h2 class="topper">// Organizing Principals</h2><p>A large project calls for a large team; the more moving parts, the more hands are needed to keep things under control. Discipline and coordination are essential to meet goals with healthy morale and velocity.</p><p>We have worked on teams as technical specialists (FED, WP, CSS), as group leaders / lead specialists, and as QA consultants. There are many hats to wear, one resource in their time may know many roles.</p><h2 class="topper">// Always Good to Have a Backup</h2><p>A true advantage of having several multi-skilled resources on a team: as some tasks conclude quickly, resources may find extra time. This surplus can be put to double-checking colleagues\' work, or several free resources can swarm to tackle a problem that had a single resource stumped. A hive thrives.</p><div class="bumper"></div><p>This is good not only for quality in product (and happy clients) but also for team morale, esprit d\'corps. Surprises happen, projects change course, gremlins will emerge. A thousand possible unexpected outcomes. If a resource knows that they are on a strong team, there is never the feeling of facing something alone.</p><div class="centro"><h2 class="topper">// Team Guarantees</h2><p>Having this level of internal oversight means an ability to offer certain guarantees. An additional QA process becomes a nice-to-have, not a requirement, it is already built into the process.</p><p>This can give your Account Manager confidence in knowing that, even though this thing we are building has about a billion moving pieces, each one is being crafted to order and gets the attention it deserves to assure quality.</p><h2 class="topper">// No Slackin On Slack</h2><p>The modern interactive workplace reflects its products; We are adaptible, we are flexible. Sometimes we are together in person, sometimes we are all in our own remote bubbles. But an increasingly common scenario is one where the team gathers only in the virtual.</p><p>Whatever the makeup or character of the team, the paramount value should always be quality in the final build. All of the team spirit and rah-rah in the world is meaningless if the focus slips from delivering quality in our final product.</p><div class="bumper"></div><h2 class="topper">// Let\'s Get Busy</h2><p>Whether you need line item QA or a team lead crossed with an accomplished dev, Cruzat.Media can help. Contact us today with your team status and requirements, we will discuss our options.</p></div>',
-			icon: 'fa-coffee',
-			route: '/services/team-support',
-			loc: 'serv\\ts',
-			titleNav: [
-				'/about',
-				'/projects',
-			],
-		},
+		// team: {
+		// 	title: 'Team Support',
+		// 	content: '<img class="bigshot edge f-right" src="'+team+'" alt="Team Support"><h2 class="topper">// Organizing Principals</h2><p>A large project calls for a large team; the more moving parts, the more hands are needed to keep things under control. Discipline and coordination are essential to meet goals with healthy morale and velocity.</p><p>We have worked on teams as technical specialists (FED, WP, CSS), as group leaders / lead specialists, and as QA consultants. There are many hats to wear, one resource in their time may know many roles.</p><h2 class="topper">// Always Good to Have a Backup</h2><p>A true advantage of having several multi-skilled resources on a team: as some tasks conclude quickly, resources may find extra time. This surplus can be put to double-checking colleagues\' work, or several free resources can swarm to tackle a problem that had a single resource stumped. A hive thrives.</p><div class="bumper"></div><p>This is good not only for quality in product (and happy clients) but also for team morale, esprit d\'corps. Surprises happen, projects change course, gremlins will emerge. A thousand possible unexpected outcomes. If a resource knows that they are on a strong team, there is never the feeling of facing something alone.</p><div class="centro"><h2 class="topper">// Team Guarantees</h2><p>Having this level of internal oversight means an ability to offer certain guarantees. An additional QA process becomes a nice-to-have, not a requirement, it is already built into the process.</p><p>This can give your Account Manager confidence in knowing that, even though this thing we are building has about a billion moving pieces, each one is being crafted to order and gets the attention it deserves to assure quality.</p><h2 class="topper">// No Slackin On Slack</h2><p>The modern interactive workplace reflects its products; We are adaptible, we are flexible. Sometimes we are together in person, sometimes we are all in our own remote bubbles. But an increasingly common scenario is one where the team gathers only in the virtual.</p><p>Whatever the makeup or character of the team, the paramount value should always be quality in the final build. All of the team spirit and rah-rah in the world is meaningless if the focus slips from delivering quality in our final product.</p><div class="bumper"></div><h2 class="topper">// Let\'s Get Busy</h2><p>Whether you need line item QA or a team lead crossed with an accomplished dev, Cruzat.Media can help. Contact us today with your team status and requirements, we will discuss our options.</p></div>',
+		// 	icon: 'fa-coffee',
+		// 	route: '/services/team-support',
+		// 	loc: 'serv\\ts',
+		// 	titleNav: [
+		// 		'/about',
+		// 		'/projects',
+		// 	],
+		// },
 		recording: {
 			title: 'Audio Recording',
 			content: '<img class="bigshot edge f-right" src="'+team+'" alt="Audio Recording">ß<h2 class="topper">// The Sound of Things</h2>ß<p>Sound is such an immediate and intimate sense. At a performance, it\'s all about the sound, the shared experience of it. In a room with speakers, the sound becomes a presence, it shares space. If listening to headphones, the sound is literally in one\'s head. An early augmented reality experience was just walking down the street listening to a Walkman.</p>ß<p>Such a versatile and flexible medium, with such a simple foundation: plug something into an input, then play something or say something. And from there it can go in so many directions, from recording a podcast to restoring damaged audio to tracking in your next amazing song.</p>ß<h2 class="topper">// Speak to Your Market</h2>ß<p>What better way to address your potential customers or clients than to actually address them? Using modern web standards that make multimedia integrations MUCH simpler, we can record a greeting or statement of purpose, in your own voice, and include it along with that great headshot on your about page.</p>ß<p>We will bring a studio quality recording experience to you. In addition to the convenience of recording in your own space, it will add a natural comfort to your voice. If you sound at ease, your prospect feels at ease.</p>ß<h2 class="topper">// Nothing Like a Good Chat</h2>ß<p>In the past five years, podcasts have exploded in popularity, speaking to a market that continues to gain definition. Interviews, documentary, commentary and original fiction; if you listen to podcasts, chances are you have an idea for a show that could fit into one of those categories.</p>ß<p>We can help you with this. Cruzat.Media has mobile recording capabilities for up to four separate channels (microphones) of audio, perfect for a small round table discussion. We can catch it, clean it and cook it, your show will sound delicious.</p>ß<div class="centro">ß<div class="bumper"></div>ß<h2 class="topper">// Voices from the Past</h2>ß<p>This is the digital age, it\'s as easy as picking up your phone to capture a golden moment. In previous eras, it was usually an enterprising youngster in the family, interviewing elders with a bulky tape recorder and a microphone.</p>ß<p>If you were that youngster, maybe even still have the box of tapes tucked away somewhere, it is important to transfer those tapes if you have not already done so. Every decade that magnetic tape ages, it becomes more brittle. Cruzat.Media can assist with both the transfer and restoration of these irreplaceable conversations.</p>ß<h2 class="topper">// Rawkin Out</h2>ß<p>And then there are the good old fashioned labrats, studio dwellers who create environments and songs in their own little nests -- Dan is one of you. There are some killer demos you\'ve made but you know there is room for improvement.</p>ß<p>If you love outboard gear, taking it all to a by-the-hour studio can be a daunting task. And costly -- time ticks away while you connect and break down stands and cables. Cruzat.Media can bring a mobile recording solution directly to you, capture the sound of your gear in its native environment.</p>ß<div class="bumper"></div>ß<h2 class="topper">// Let\'s Get Busy</h2>ß<p>Whether you are recording a podcast or a song, if you need sound design or production, Cruzat.Media can help. Contact us today with how things are sounding for you today, we will help you dial it in.</p>ß</div>',
