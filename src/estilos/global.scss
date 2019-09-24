@@ -234,6 +234,13 @@ a {
 	position: relative;
 }
 
+.top.cell {
+	.Masthead__image.is-parallax>img {
+		object-fit: contain;
+		object-position: center;
+	}
+}
+
 .cell {
 	position: relative;
 	width: 100%;
@@ -298,8 +305,8 @@ a {
 	  @include flex-center();
 
 	  img {
-	    max-width: 80%;
-	    position: fixed;
+	    max-width: 60%;
+	    // position: fixed;
 	  }
 
 	}
@@ -837,6 +844,45 @@ ul.icons {
 
 		+.last-calls {
 			margin-top: $bv*4;
+		}
+
+		.button-rack {
+			flex-direction: column;
+		}
+
+		&--eye {
+			max-width: 44px;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: $bv * 1.25;
+		}
+
+		&--cta-wrap {
+			width: 100%;
+			position: relative;
+
+			.button.grande {
+				display: block;
+				width: 240px;
+			}
+
+			hr {
+				position: absolute;
+				top: calc(50% - 2px);
+				left: 0;
+				width: 34%;
+				height: 4px;
+				border: none;
+				outline: none;
+				background: #000;
+				margin: 0;
+
+				+hr {
+					left: auto;
+					right: 0;
+				}
+			}
 		}
 	}
 
@@ -1741,6 +1787,85 @@ ul.icons {
 
 		&:hover {
 			color: #000!important;
+		}
+	}
+}
+.project {
+	.Masthead {
+		height: 50vh!important;
+		min-height: 80vh!important;
+		z-index: 0;
+	}
+}
+.project-hero {
+	background: #fff; // url(https://cdnb.artstation.com/p/assets/images/images/012/731/855/large/peter-mckinstry-dalek-final-copyflat.jpg) 50% 50% no-repeat fixed; background-size: cover; // #000;
+	// height: 100vh; // calc(100vh - 90px);
+	// max-height: 600px;
+	@include smaller-than($bplg) {
+		// height: 60vh;
+	}
+	@include smaller-than($bpmd) {
+		// height: 90vh;
+	}
+	@include bigger-than($bpmd) {
+		// padding-bottom: 60%;
+	}
+	@include bigger-than($bpxl) {
+		// padding-bottom: 50%;
+	}
+	// 
+
+
+	position: relative;
+
+	img {
+		max-width: 100%;
+	}
+
+	&--meta {
+		background: rgba(0,0,0,0.9);
+		color: white;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: $bv/2 0;
+
+		@include bigger-than() {
+			padding: $bv/1.5 0;
+		}
+
+		.contain {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			@include smaller-than($bpmd) {
+				flex-direction: column;
+			}
+		}
+		p, .button {
+			margin: 0;
+		}
+
+		.button {
+			@include smaller-than($bpmd) {
+				margin-top: $bv/2;
+			}
+			
+
+			color: #000;
+			background: $ylo;
+		}
+
+		&__list {
+			text-transform: uppercase;
+			font-size: 0.8rem;
+			font-family: $title;
+		}
+
+		&__calls {
+			display: flex;
 		}
 	}
 }
