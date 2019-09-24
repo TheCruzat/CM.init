@@ -2,7 +2,9 @@
   <div class="frame">
 
     <div class="top cell">
-      <img :src="brandB" alt="CRUZAT.MEDIA">
+      <parallax :speed-factor="0.25" class="top cell" :direction="down">
+        <img :src="brandB" alt="CRUZAT.MEDIA">
+      </parallax>
     </div>
 
     <Cell v-for="cell in cc.main.cells" :title="cell.title" :classes="cell.classes" :content="cell.content" :img="cell.img" :art="cell.art" :links="cell.links" :icons="cell.icons" :navlinks="cell.navlinks" />
@@ -13,6 +15,7 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import Parallax from 'vue-parallaxy';
 import Cell from '@/components/Cell.vue';
 import SiteFoot from '@/components/SiteFoot.vue';
 
@@ -23,6 +26,7 @@ import cc from '@/content/core.js';
   components: {
     Cell,
     SiteFoot,
+    Parallax,
   },
 })
 
