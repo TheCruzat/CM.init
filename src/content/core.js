@@ -63,8 +63,9 @@ const cc = {
 			{
 				title: 'AT&T Foundry',
 				content: '<p>A custom WordPress theme for AT&T\'s innovation division</p>',
-				classes: 'tall',
+				// classes: 'tall',
 				img: logoATTF,
+				imgBG: '#fff',
 				navlinks: [
 				  {
 				    url: '/projects/att-foundry',
@@ -77,6 +78,7 @@ const cc = {
 				content: '<p>Two dynamic WordPress template groups to sprout two microsites</p>',
 				classes: 'half',
 				img: logoMA,
+				imgBG: '#e7e3e0',
 				navlinks: [
 				  {
 				    url: '/projects/modern-adventure',
@@ -89,6 +91,7 @@ const cc = {
 				content: '<p>Responsive WordPress site for OR central services company</p>',
 				classes: 'half',
 				img: logoICE,
+				imgBG: '#fff',
 				navlinks: [
 				  {
 				    url: '/projects/ice',
