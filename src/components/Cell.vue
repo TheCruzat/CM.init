@@ -29,7 +29,7 @@
           </div>
         </div>
 
-        <div v-if="img" class="banner" v-bind:style="{ background: 'url(' + img + ') 50% 50% no-repeat', backgroundSize: 'cover' }"></div>
+        <div v-if="img" class="banner" v-bind:style="{ background: imgBG + ' url(' + img + ') 50% 50% no-repeat', backgroundSize: 'contain' }"></div>
 
         <div v-if="img && art == null" class="ribbon">
           <h3 v-if="title" v-html="title"></h3>
@@ -57,6 +57,7 @@ export default class Cell extends Vue {
   @Prop() private content?: any;
   @Prop() private classes?: string;
   @Prop() private img?: string;
+  @Prop() private imgBG?: string;
   @Prop() private bg?: any;
   @Prop() private art?: string;
   @Prop() private links?: [];
