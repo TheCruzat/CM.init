@@ -40,6 +40,14 @@ const cc = {
 			{
 				classes: 'alert',
 			},
+			{
+				title: 'interactive / sound',
+				content: '<div class="center-text"><p>serving audio needs in Portland OR and front end dev needs globally</p><p>quality in service since 2018</p></div>',
+				classes: 'tall',
+			},
+			{
+				classes: 'alert',
+			},
 			// {
 			// 	title: 'Music for Podcasts',
 			// 	content: '<iframe data-v-66386f52="" src="//bandcamp.com/EmbeddedPlayer/album=1796920231/size=large/bgcol=ffffff/linkcol=13c7a3/tracklist=false/artwork=none/transparent=true/"></iframe>',
@@ -55,8 +63,9 @@ const cc = {
 			{
 				title: 'AT&T Foundry',
 				content: '<p>A custom WordPress theme for AT&T\'s innovation division</p>',
-				classes: 'tall',
+				// classes: 'tall',
 				img: logoATTF,
+				imgBG: '#fff',
 				navlinks: [
 				  {
 				    url: '/projects/att-foundry',
@@ -69,6 +78,7 @@ const cc = {
 				content: '<p>Two dynamic WordPress template groups to sprout two microsites</p>',
 				classes: 'half',
 				img: logoMA,
+				imgBG: '#e7e3e0',
 				navlinks: [
 				  {
 				    url: '/projects/modern-adventure',
@@ -81,6 +91,7 @@ const cc = {
 				content: '<p>Responsive WordPress site for OR central services company</p>',
 				classes: 'half',
 				img: logoICE,
+				imgBG: '#fff',
 				navlinks: [
 				  {
 				    url: '/projects/ice',
@@ -104,8 +115,8 @@ const cc = {
 				classes: 'alert',
 			},
 			{
-				classes: 'natural tall services',
-				title: 'here to assist with',
+				classes: 'taller services',
+				title: 'how can we help?',
 				icons: [
 				  {
 				    title: 'Front End Development',
@@ -169,7 +180,7 @@ const cc = {
 			// },
 			{
 				title: 'About C.M',
-				content: '<p>A company specializing in interactive & sound, and the 20 year veteran producer in both who still enjoys noodling ideas on paper over coffee.</p>',
+				content: '<div class="center-text"><p>A company specializing in interactive & sound, and the 20 year veteran producer in both who still enjoys noodling ideas on paper over coffee.</p></div>',
 				classes: 'tall about',
 				navlinks: [
 				  {
