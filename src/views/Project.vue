@@ -6,7 +6,7 @@
 	    </div>-->
 
 	    <div class="project-hero">
-	    	<parallax v-if="core.heroes" :speed-factor="0.2" :direction="up">
+	    	<parallax v-if="core.heroes" :speed-factor="0.25" :direction="up">
 	    		<img v-for="img in core.heroes" :src="img" class="project-hero-image" alt="" />
 	    	</parallax>
 	    	<div class="project-hero--meta"><div class="contain">
@@ -34,13 +34,14 @@
 				</div>
 				<img class="wideshot bump-top" :src="call.img" :alt="core.title">
 			</div>
+			<div class="contain" v-html="core.contentB"></div>
 			<!-- div class="centro bump-2op">
 				<ButtonRack :buttons="core.buttons" :classes="'finale'" :screen="true"  />
 			</div -->
-			<div class="contain"><div class="project-meta flexbox between bump-2op">
-	      		<SubNavArrows v-if="set" :title="flavor" :subnav="set" :me="core.title" troute="/projects" class="footer-pagination" />
+			<div class="contain"><div class="project-meta bump-2op">
 				<ButtonRack v-if="core.endNav" :buttons="core.endNav" class="naked" />
-			</div></div>
+			</div>
+	      		<SubNavArrows v-if="set" :title="flavor" :subnav="set" :me="core.title" troute="/projects" class="footer-pagination" /></div>
 		</section>
 		<SiteFoot />
   	</div>
