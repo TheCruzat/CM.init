@@ -40,6 +40,14 @@ const cc = {
 			{
 				classes: 'alert',
 			},
+			{
+				title: 'interactive / sound',
+				content: '<div class="center-text"><p>serving audio needs in Portland OR and front end dev needs globally</p><p>quality in service since 2018</p></div>',
+				classes: 'tall',
+			},
+			{
+				classes: 'alert',
+			},
 			// {
 			// 	title: 'Music for Podcasts',
 			// 	content: '<iframe data-v-66386f52="" src="//bandcamp.com/EmbeddedPlayer/album=1796920231/size=large/bgcol=ffffff/linkcol=13c7a3/tracklist=false/artwork=none/transparent=true/"></iframe>',
