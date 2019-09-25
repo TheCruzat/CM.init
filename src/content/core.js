@@ -115,8 +115,8 @@ const cc = {
 				classes: 'alert',
 			},
 			{
-				classes: 'natural tall services',
-				title: 'here to assist with',
+				classes: 'taller services',
+				title: 'how can we help?',
 				icons: [
 				  {
 				    title: 'Front End Development',
@@ -180,7 +180,7 @@ const cc = {
 			// },
 			{
 				title: 'About C.M',
-				content: '<p>A company specializing in interactive & sound, and the 20 year veteran producer in both who still enjoys noodling ideas on paper over coffee.</p>',
+				content: '<div class="center-text"><p>A company specializing in interactive & sound, and the 20 year veteran producer in both who still enjoys noodling ideas on paper over coffee.</p></div>',
 				classes: 'tall about',
 				navlinks: [
 				  {
