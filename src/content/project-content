@@ -88,6 +88,10 @@ Landing
 
 <p>The Magazine landing page involved creating a large size interlocking mural using graphics, each piece being a link taking the user to an article in the issue. This also needs to resolve cleanly for mobile.</p>
 
+</div>
+
+<div class="centro">
+
 <h2 class="topper">// The Build</h2>
 
 <p>The Trellis / Bedrock / Vagrant tech the site is built on is truly impressive, using a VM to run the necessary Apache server to run the PHP+MySQL combo that allows WordPress to function is verrry clever.</p>
@@ -129,6 +133,10 @@ Landing
 <h2 class="topper">// The Plan of Attack</h2>
 
 <p>In any full app / full site project, it is generally a good idea to begin with locking down all of the known elements before moving into the unknown questions. So first and foremost was taking care of the core site build, translating over the existing content, then moving into the gated content and integration questions.</p>
+
+</div>
+
+<div class="centro">
 
 <h2 class="topper">// The Build</h2>
 
