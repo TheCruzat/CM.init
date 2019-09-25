@@ -7,7 +7,7 @@
       </parallax>
     </div>
 
-    <Cell v-for="cell in cc.main.cells" :title="cell.title" :classes="cell.classes" :content="cell.content" :img="cell.img" :art="cell.art" :links="cell.links" :icons="cell.icons" :navlinks="cell.navlinks" />
+    <Cell v-for="cell in cc.main.cells" :title="cell.title" :classes="cell.classes" :content="cell.content" :img="cell.img" :imgBG="cell.imgBG" :art="cell.art" :links="cell.links" :icons="cell.icons" :navlinks="cell.navlinks" />
 
     <SiteFoot />
   </div>
