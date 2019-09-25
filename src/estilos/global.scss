@@ -81,8 +81,9 @@ a {
 	// border-radius: 4px;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: 600;
+	letter-spacing: 0.05rem;
 	background: #000;
 	transition: all 0.2s;
 	margin-left: auto;
@@ -91,8 +92,10 @@ a {
 	cursor: pointer;
 	box-sizing: border-box;
 
+	font-family: $title;
+
 	&.grande {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		min-width: 240px;
 		width: auto;
 		display: inline-block;
@@ -139,13 +142,17 @@ a {
 	  }
 
 	  &.naked {
+	  	// width: 100%;
+	  	// justify-content: center;
+	  	display: block;
 	  	width: 100%;
-	  	justify-content: center;
+	  	text-align: center;
+	  	margin: 0 auto; // $bv/3 auto;
 
 	  	.button {
 	  		color: #666;
 	  		background: transparent;
-	  		display: inline;
+	  		display: inline-block;
 	  		width: auto;
 	  		margin: 0;
 	  		border-color: transparent;
@@ -1773,13 +1780,19 @@ ul.icons {
 }
 
 .project-meta {
-	background: darken($pbg, 10%);
-	padding: 4px;
-	margin-bottom: 0;
+	// background: darken($pbg, 10%);
+	// padding: 4px;
+	margin-bottom: $bv*2;
+	width: 100%;
+	text-align: center;
 
 	@include smaller-than($bpmd) {
 		flex-direction: column-reverse;
 		background: transparent;
+	}
+
+	.contain {
+		justify-content: center;
 	}
 
 	.button-rack.naked a.button {
@@ -1798,9 +1811,10 @@ ul.icons {
 	}
 }
 .project-hero {
-	background: #fff; // url(https://cdnb.artstation.com/p/assets/images/images/012/731/855/large/peter-mckinstry-dalek-final-copyflat.jpg) 50% 50% no-repeat fixed; background-size: cover; // #000;
+	background: #000; // url(https://cdnb.artstation.com/p/assets/images/images/012/731/855/large/peter-mckinstry-dalek-final-copyflat.jpg) 50% 50% no-repeat fixed; background-size: cover; // #000;
 	// height: 100vh; // calc(100vh - 90px);
 	// max-height: 600px;
+	// margin-top: 52px;
 	@include smaller-than($bplg) {
 		// height: 60vh;
 	}
@@ -1820,6 +1834,7 @@ ul.icons {
 
 	img {
 		max-width: 100%;
+		opacity: 0.8;
 	}
 
 	&--meta {
@@ -1852,7 +1867,7 @@ ul.icons {
 			@include smaller-than($bpmd) {
 				margin-top: $bv/2;
 			}
-			
+			width: 180px;
 
 			color: #000;
 			background: $ylo;
@@ -1876,6 +1891,10 @@ ul.icons {
 		display: flex;
 		// margin-top: $bv*2;
 	// }
+
+	.contain {
+		justify-content: center;
+	}
 
 	@include smaller-than($bpmd) {
 		margin-top: $bv*2!important;
@@ -1915,7 +1934,7 @@ ul.icons {
 		cursor: pointer;
 		transition: all 0.2s;
 		color: #aaa!important;
-		width: 100%;
+		width: 72px;
 
 		@include smaller-than($bpmd) {
 			border: 2px solid #ccc!important;
@@ -1963,6 +1982,7 @@ ul.icons {
 
 	.button-rack {
 		display: inline-block;
+		width: auto;
 	}
 }
 
