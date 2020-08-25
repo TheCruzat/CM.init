@@ -202,6 +202,7 @@
 
 			@include bigger-than() {
 				font-size: 2.6rem;
+				padding-bottom: 2rem;
 			}
 
 			@include bigger-than($bpx2) {
@@ -225,6 +226,10 @@
 	h1, h2, h3, h4, h5, p, li, ul {
 		padding: 0;
 		margin: 0 0 $bv;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}		
 
 	p {

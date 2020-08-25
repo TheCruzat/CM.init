@@ -11,11 +11,7 @@
           <ul class="labels">
             <li><a @click="cookMail('inquiries@cruzat.media', 'Hello CRUZAT.MEDIA')" aria-label="Email Cruzat Media">
               <i class="fa fa-envelope"></i>
-              <span>email c.m</span>
-            </a></li>
-            <li><a @click="cookPhone('7739884797')">
-              <i class="fa fa-phone"></i>
-              <span>call c.m</span>
+              <!--span>email c.m</span-->
             </a></li>
           </ul>
 
@@ -60,16 +56,16 @@ export default class SiteFoot extends Vue {
     super();
     this.showContact = false;
     this.soclnx = [
-      {
-        label: 'CRUZAT.MEDIA on Twitter',
-        link: 'https://twitter.com/cruzatmedia',
-        icon: 'fa-twitter',
-      },
-      {
-        label: 'CRUZAT.MEDIA on Instagram',
-        link: 'https://instagram.com/cruzatmedia',
-        icon: 'fa-instagram',
-      },
+      // {
+      //   label: 'CRUZAT.MEDIA on Twitter',
+      //   link: 'https://twitter.com/cruzatmedia',
+      //   icon: 'fa-twitter',
+      // },
+      // {
+      //   label: 'CRUZAT.MEDIA on Instagram',
+      //   link: 'https://instagram.com/cruzatmedia',
+      //   icon: 'fa-instagram',
+      // },
       {
         label: 'CRUZAT.MEDIA on LinkedIn',
         link: 'https://linkedin.com/company/cruzatmedia',
@@ -91,10 +87,15 @@ export default class SiteFoot extends Vue {
         classes: 'alert',
       },
       {
-        content: '<span>all content &copy;2018-2019 cruzat media llc</span><span class="dvv"> : </span><span>all rights reserved</span>',
+        content: '<span>all content &copy;2018-'+this.getYear()+' cruzat media llc</span><span class="dvv"> : </span><span>all rights reserved</span>',
         classes: 'sig',
       },
     ];
+  }
+
+  public getYear() {
+    const d = new Date();
+    return d.getFullYear();
   }
 
   public cookMail(e, s) {

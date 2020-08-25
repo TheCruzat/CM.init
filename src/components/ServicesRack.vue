@@ -28,11 +28,6 @@ export default class ServicesRack extends Vue {
         route: '/services/front-end',
       },
       {
-        title: 'WordPress Customization',
-        icon: 'fa-scissors',
-        route: '/services/wordpress',
-      },
-      {
         title: 'UX & Strategy',
         icon: 'fa-compass',
         route: '/services/ux-strategy',
@@ -43,10 +38,15 @@ export default class ServicesRack extends Vue {
         route: '/services/css',
       },
       {
+        title: 'WordPress Customization',
+        icon: 'fa-scissors',
+        route: '/services/wordpress',
+      },
+      /*{
         title: 'Audio Recording',
         icon: 'fa-microphone',
         route: '/services/audio-recording',
-      },
+      },*/
       // {
       //   title: 'Team Support',
       //   icon: 'fa-coffee',

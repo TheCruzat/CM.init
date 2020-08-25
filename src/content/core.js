@@ -41,8 +41,8 @@ const cc = {
 				classes: 'alert',
 			},
 			{
-				title: 'interactive / sound',
-				content: '<div class="center-text"><p>serving audio needs in Portland OR and front end dev needs globally</p><p>quality in service since 2018</p></div>',
+				title: 'remote front end development<br>and audio services',
+				content: '<div class="center-text"><p>remote front end development and audio services</p><p>located in Portland OR</p><p>est 2018</p></div>',
 				classes: 'tall',
 			},
 			{
@@ -60,7 +60,7 @@ const cc = {
 			// 	  },
 			// 	],
 			// },
-			{
+			/*{
 				title: 'AT&T Foundry',
 				content: '<p>A custom WordPress theme for AT&T\'s innovation division</p>',
 				// classes: 'tall',
@@ -113,7 +113,7 @@ const cc = {
 			// },
 			{
 				classes: 'alert',
-			},
+			},*/
 			{
 				classes: 'taller services',
 				title: 'how can we help?',
@@ -122,11 +122,6 @@ const cc = {
 				    title: 'Front End Development',
 				    icon: 'fa-cubes',
 				    route: '/services/front-end',
-				  },
-				  {
-				    title: 'WordPress Customization',
-				    icon: 'fa-scissors',
-				    route: '/services/wordpress',
 				  },
 				  {
 				    title: 'UX & Strategy',
@@ -143,11 +138,16 @@ const cc = {
 				  //   icon: 'fa-volume-up',
 				  //   route: '/services/sound-design',
 				  // },
-				  {
-				    title: 'Audio Recording',
-				    icon: 'fa-microphone',
-				    route: '/services/audio-recording',
-				  },
+					{
+						title: 'WordPress Customization',
+						icon: 'fa-scissors',
+						route: '/services/wordpress',
+					},
+				  // {
+				  //   title: 'Audio Recording',
+				  //   icon: 'fa-microphone',
+				  //   route: '/services/audio-recording',
+				  // },
 				  // {
 				  //   title: 'Team Support',
 				  //   icon: 'fa-coffee',
@@ -632,7 +632,7 @@ const cc = {
 		},
 		services: {
 			title: 'What We Do',
-			content: '<p class="center-text full-w no-foot">Cruzat.Media can assist your team with several tasks</p>',
+			content: '<p class="center-text full-w no-foot">Cruzat.Media can assist with:</p>',
 			loc: 'serv',
 			titleNav: [
 				'/about',
@@ -642,11 +642,11 @@ const cc = {
 				routes: [{
 					url: '/about',
 					label: 'Cruzat.Media',
-				},
+				}]/*,
 				{
 					url: '/projects',
 					label: 'Our Work',
-				}],
+				}],*/
 			},
 		},
 		contact: {
