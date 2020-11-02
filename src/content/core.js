@@ -42,7 +42,7 @@ const cc = {
 			},
 			{
 				title: 'remote front end development<br>and audio services',
-				content: '<div class="center-text"><p>remote front end development and audio services</p><p>located in Portland OR</p><p>est 2018</p></div>',
+				content: '<div class="center-text"><p>located in Portland OR</p><p>est 2018</p></div>',
 				classes: 'tall',
 			},
 			{
