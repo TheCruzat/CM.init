@@ -2249,6 +2249,11 @@ ul.icons {
 			@include smaller-than($bpsm) {
 				// width: 100%;
 			}
+			@include bigger-than($bpmd) {
+				span {
+					display: none;
+				}
+			}
 		}
 
 		// &.inline {
