@@ -444,7 +444,8 @@ a {
 	}
 
 	&.taller {
-		padding: $bv*2;
+		padding: $bv*4 $bv*2;
+		background: $pbg;
 		min-height: 90vh;
 	}
 
@@ -625,13 +626,13 @@ ul.icons {
 	padding: 0;
 	list-style: none;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 
 	li {
 		display: block;
 		text-align: center;
-		width: 50%;
+		width: calc(50% - 10px);
 		margin-bottom: 0;
 		position: relative;
 
