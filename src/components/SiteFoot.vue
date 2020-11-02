@@ -11,7 +11,7 @@
           <ul class="labels">
             <li><a @click="cookMail('inquiries@cruzat.media', 'Hello CRUZAT.MEDIA')" aria-label="Email Cruzat Media">
               <i class="fa fa-envelope"></i>
-              <!--span>email c.m</span-->
+              <span>email c.m</span>
             </a></li>
           </ul>
 
